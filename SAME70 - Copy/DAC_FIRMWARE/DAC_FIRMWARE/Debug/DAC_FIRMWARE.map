@@ -1,0 +1,1660 @@
+
+Discarded input sections
+
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .group         0x00000000        0x8 src/debug_uart.o
+ .text          0x00000000        0x0 src/debug_uart.o
+ .data          0x00000000        0x0 src/debug_uart.o
+ .bss           0x00000000        0x0 src/debug_uart.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .group         0x00000000        0x8 src/main.o
+ .text          0x00000000        0x0 src/main.o
+ .data          0x00000000        0x0 src/main.o
+ .bss           0x00000000        0x0 src/main.o
+ .text.full_reset
+                0x00000000       0x48 src/main.o
+ .debug_macro   0x00000000       0x51 src/main.o
+ .debug_macro   0x00000000       0x6a src/main.o
+ .debug_macro   0x00000000      0x1df src/main.o
+ .debug_macro   0x00000000       0x3b src/main.o
+ .debug_macro   0x00000000       0x18 src/main.o
+ .debug_macro   0x00000000       0x26 src/main.o
+ .debug_macro   0x00000000      0xf9a src/main.o
+ .debug_macro   0x00000000      0x3dc src/main.o
+ .debug_macro   0x00000000      0x592 src/main.o
+ .debug_macro   0x00000000     0x1797 src/main.o
+ .debug_macro   0x00000000      0x3bb src/main.o
+ .debug_macro   0x00000000      0x830 src/main.o
+ .debug_macro   0x00000000      0x316 src/main.o
+ .debug_macro   0x00000000     0x34d0 src/main.o
+ .debug_macro   0x00000000       0x40 src/main.o
+ .debug_macro   0x00000000     0x105e src/main.o
+ .debug_macro   0x00000000      0x555 src/main.o
+ .debug_macro   0x00000000      0xb8f src/main.o
+ .debug_macro   0x00000000      0x527 src/main.o
+ .debug_macro   0x00000000     0x3197 src/main.o
+ .debug_macro   0x00000000     0x83ff src/main.o
+ .debug_macro   0x00000000     0x31de src/main.o
+ .debug_macro   0x00000000     0x2436 src/main.o
+ .debug_macro   0x00000000      0x87f src/main.o
+ .debug_macro   0x00000000      0x17d src/main.o
+ .debug_macro   0x00000000      0x118 src/main.o
+ .debug_macro   0x00000000      0x909 src/main.o
+ .debug_macro   0x00000000      0x125 src/main.o
+ .debug_macro   0x00000000      0x69c src/main.o
+ .debug_macro   0x00000000      0xb64 src/main.o
+ .debug_macro   0x00000000      0xf03 src/main.o
+ .debug_macro   0x00000000      0xbac src/main.o
+ .debug_macro   0x00000000      0x124 src/main.o
+ .debug_macro   0x00000000      0xbc2 src/main.o
+ .debug_macro   0x00000000      0x5c5 src/main.o
+ .debug_macro   0x00000000     0x121d src/main.o
+ .debug_macro   0x00000000     0x3505 src/main.o
+ .debug_macro   0x00000000       0xc4 src/main.o
+ .debug_macro   0x00000000      0x12d src/main.o
+ .debug_macro   0x00000000     0x2780 src/main.o
+ .debug_macro   0x00000000       0x46 src/main.o
+ .debug_macro   0x00000000      0x147 src/main.o
+ .debug_macro   0x00000000       0xc4 src/main.o
+ .debug_macro   0x00000000       0xc4 src/main.o
+ .debug_macro   0x00000000       0x16 src/main.o
+ .debug_macro   0x00000000       0x76 src/main.o
+ .debug_macro   0x00000000       0x40 src/main.o
+ .debug_macro   0x00000000      0x56d src/main.o
+ .debug_macro   0x00000000       0x40 src/main.o
+ .debug_macro   0x00000000      0x7c7 src/main.o
+ .debug_macro   0x00000000       0x82 src/main.o
+ .debug_macro   0x00000000       0xa6 src/main.o
+ .debug_macro   0x00000000      0x12a src/main.o
+ .debug_macro   0x00000000      0x119 src/main.o
+ .debug_macro   0x00000000      0x119 src/main.o
+ .debug_macro   0x00000000      0x180 src/main.o
+ .debug_macro   0x00000000      0x179 src/main.o
+ .debug_macro   0x00000000      0x179 src/main.o
+ .debug_macro   0x00000000      0x121 src/main.o
+ .debug_macro   0x00000000      0x313 src/main.o
+ .debug_macro   0x00000000      0x313 src/main.o
+ .debug_macro   0x00000000       0x7c src/main.o
+ .debug_macro   0x00000000       0x22 src/main.o
+ .debug_macro   0x00000000       0x22 src/main.o
+ .debug_macro   0x00000000       0x58 src/main.o
+ .debug_macro   0x00000000       0x28 src/main.o
+ .debug_macro   0x00000000       0x76 src/main.o
+ .debug_macro   0x00000000       0x88 src/main.o
+ .debug_macro   0x00000000       0x34 src/main.o
+ .debug_macro   0x00000000      0x146 src/main.o
+ .debug_macro   0x00000000      0x146 src/main.o
+ .debug_macro   0x00000000      0x146 src/main.o
+ .debug_macro   0x00000000      0x146 src/main.o
+ .debug_macro   0x00000000       0x34 src/main.o
+ .debug_macro   0x00000000       0x7c src/main.o
+ .debug_macro   0x00000000       0x7c src/main.o
+ .debug_macro   0x00000000       0x7c src/main.o
+ .debug_macro   0x00000000       0x5e src/main.o
+ .debug_macro   0x00000000       0x5e src/main.o
+ .debug_macro   0x00000000       0x5e src/main.o
+ .debug_macro   0x00000000       0x5e src/main.o
+ .debug_macro   0x00000000       0x5e src/main.o
+ .debug_macro   0x00000000       0xd6 src/main.o
+ .debug_macro   0x00000000       0xd6 src/main.o
+ .debug_macro   0x00000000       0xd6 src/main.o
+ .debug_macro   0x00000000      0x718 src/main.o
+ .debug_macro   0x00000000       0x16 src/main.o
+ .debug_macro   0x00000000       0x22 src/main.o
+ .debug_macro   0x00000000      0x9b8 src/main.o
+ .debug_macro   0x00000000      0x4f7 src/main.o
+ .debug_macro   0x00000000     0x1750 src/main.o
+ .debug_macro   0x00000000      0x131 src/main.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .group         0x00000000        0x8 src/startup_same70.o
+ .text          0x00000000        0x0 src/startup_same70.o
+ .data          0x00000000        0x0 src/startup_same70.o
+ .bss           0x00000000        0x0 src/startup_same70.o
+ .debug_macro   0x00000000      0xa7e src/startup_same70.o
+ .debug_macro   0x00000000       0x22 src/startup_same70.o
+ .debug_macro   0x00000000       0x8e src/startup_same70.o
+ .debug_macro   0x00000000       0x51 src/startup_same70.o
+ .debug_macro   0x00000000      0x103 src/startup_same70.o
+ .debug_macro   0x00000000       0x6a src/startup_same70.o
+ .debug_macro   0x00000000      0x1df src/startup_same70.o
+ .debug_macro   0x00000000       0xd1 src/startup_same70.o
+ .debug_macro   0x00000000       0x3b src/startup_same70.o
+ .debug_macro   0x00000000       0x18 src/startup_same70.o
+ .debug_macro   0x00000000       0x26 src/startup_same70.o
+ .debug_macro   0x00000000      0xf9a src/startup_same70.o
+ .debug_macro   0x00000000      0x3dc src/startup_same70.o
+ .debug_macro   0x00000000      0x592 src/startup_same70.o
+ .debug_macro   0x00000000     0x1797 src/startup_same70.o
+ .debug_macro   0x00000000      0x3bb src/startup_same70.o
+ .debug_macro   0x00000000      0x830 src/startup_same70.o
+ .debug_macro   0x00000000      0x316 src/startup_same70.o
+ .debug_macro   0x00000000     0x34d0 src/startup_same70.o
+ .debug_macro   0x00000000       0x40 src/startup_same70.o
+ .debug_macro   0x00000000     0x105e src/startup_same70.o
+ .debug_macro   0x00000000      0x555 src/startup_same70.o
+ .debug_macro   0x00000000      0xb8f src/startup_same70.o
+ .debug_macro   0x00000000      0x527 src/startup_same70.o
+ .debug_macro   0x00000000     0x3197 src/startup_same70.o
+ .debug_macro   0x00000000     0x83ff src/startup_same70.o
+ .debug_macro   0x00000000     0x31de src/startup_same70.o
+ .debug_macro   0x00000000     0x2436 src/startup_same70.o
+ .debug_macro   0x00000000      0x87f src/startup_same70.o
+ .debug_macro   0x00000000      0x17d src/startup_same70.o
+ .debug_macro   0x00000000      0x118 src/startup_same70.o
+ .debug_macro   0x00000000      0x909 src/startup_same70.o
+ .debug_macro   0x00000000      0x125 src/startup_same70.o
+ .debug_macro   0x00000000      0x69c src/startup_same70.o
+ .debug_macro   0x00000000      0xb64 src/startup_same70.o
+ .debug_macro   0x00000000      0xf03 src/startup_same70.o
+ .debug_macro   0x00000000      0xbac src/startup_same70.o
+ .debug_macro   0x00000000      0x124 src/startup_same70.o
+ .debug_macro   0x00000000      0xbc2 src/startup_same70.o
+ .debug_macro   0x00000000      0x5c5 src/startup_same70.o
+ .debug_macro   0x00000000     0x121d src/startup_same70.o
+ .debug_macro   0x00000000     0x3505 src/startup_same70.o
+ .debug_macro   0x00000000       0xc4 src/startup_same70.o
+ .debug_macro   0x00000000      0x12d src/startup_same70.o
+ .debug_macro   0x00000000     0x2780 src/startup_same70.o
+ .debug_macro   0x00000000       0x46 src/startup_same70.o
+ .debug_macro   0x00000000      0x147 src/startup_same70.o
+ .debug_macro   0x00000000       0xc4 src/startup_same70.o
+ .debug_macro   0x00000000       0xc4 src/startup_same70.o
+ .debug_macro   0x00000000       0x16 src/startup_same70.o
+ .debug_macro   0x00000000       0x76 src/startup_same70.o
+ .debug_macro   0x00000000       0x40 src/startup_same70.o
+ .debug_macro   0x00000000      0x56d src/startup_same70.o
+ .debug_macro   0x00000000       0x40 src/startup_same70.o
+ .debug_macro   0x00000000      0x7c7 src/startup_same70.o
+ .debug_macro   0x00000000       0x82 src/startup_same70.o
+ .debug_macro   0x00000000       0xa6 src/startup_same70.o
+ .debug_macro   0x00000000      0x12a src/startup_same70.o
+ .debug_macro   0x00000000      0x119 src/startup_same70.o
+ .debug_macro   0x00000000      0x119 src/startup_same70.o
+ .debug_macro   0x00000000      0x180 src/startup_same70.o
+ .debug_macro   0x00000000      0x179 src/startup_same70.o
+ .debug_macro   0x00000000      0x179 src/startup_same70.o
+ .debug_macro   0x00000000      0x121 src/startup_same70.o
+ .debug_macro   0x00000000      0x313 src/startup_same70.o
+ .debug_macro   0x00000000      0x313 src/startup_same70.o
+ .debug_macro   0x00000000       0x7c src/startup_same70.o
+ .debug_macro   0x00000000       0x22 src/startup_same70.o
+ .debug_macro   0x00000000       0x22 src/startup_same70.o
+ .debug_macro   0x00000000       0x58 src/startup_same70.o
+ .debug_macro   0x00000000       0x28 src/startup_same70.o
+ .debug_macro   0x00000000       0x76 src/startup_same70.o
+ .debug_macro   0x00000000       0x88 src/startup_same70.o
+ .debug_macro   0x00000000       0x34 src/startup_same70.o
+ .debug_macro   0x00000000      0x146 src/startup_same70.o
+ .debug_macro   0x00000000      0x146 src/startup_same70.o
+ .debug_macro   0x00000000      0x146 src/startup_same70.o
+ .debug_macro   0x00000000      0x146 src/startup_same70.o
+ .debug_macro   0x00000000       0x34 src/startup_same70.o
+ .debug_macro   0x00000000       0x7c src/startup_same70.o
+ .debug_macro   0x00000000       0x7c src/startup_same70.o
+ .debug_macro   0x00000000       0x7c src/startup_same70.o
+ .debug_macro   0x00000000       0x5e src/startup_same70.o
+ .debug_macro   0x00000000       0x5e src/startup_same70.o
+ .debug_macro   0x00000000       0x5e src/startup_same70.o
+ .debug_macro   0x00000000       0x5e src/startup_same70.o
+ .debug_macro   0x00000000       0x5e src/startup_same70.o
+ .debug_macro   0x00000000       0xd6 src/startup_same70.o
+ .debug_macro   0x00000000       0xd6 src/startup_same70.o
+ .debug_macro   0x00000000       0xd6 src/startup_same70.o
+ .debug_macro   0x00000000      0x718 src/startup_same70.o
+ .debug_macro   0x00000000       0x16 src/startup_same70.o
+ .debug_macro   0x00000000       0x22 src/startup_same70.o
+ .debug_macro   0x00000000      0x9b8 src/startup_same70.o
+ .debug_macro   0x00000000      0x4f7 src/startup_same70.o
+ .debug_macro   0x00000000     0x1750 src/startup_same70.o
+ .debug_macro   0x00000000      0x131 src/startup_same70.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .group         0x00000000        0x8 src/timers.o
+ .text          0x00000000        0x0 src/timers.o
+ .data          0x00000000        0x0 src/timers.o
+ .bss           0x00000000        0x0 src/timers.o
+ .text.timer1_init
+                0x00000000        0xc src/timers.o
+ .debug_info    0x00000000       0x82 src/timers.o
+ .debug_abbrev  0x00000000       0x47 src/timers.o
+ .debug_aranges
+                0x00000000       0x20 src/timers.o
+ .debug_ranges  0x00000000       0x10 src/timers.o
+ .debug_macro   0x00000000      0x3f6 src/timers.o
+ .debug_macro   0x00000000      0xa7e src/timers.o
+ .debug_macro   0x00000000       0x22 src/timers.o
+ .debug_macro   0x00000000       0x8e src/timers.o
+ .debug_macro   0x00000000       0x51 src/timers.o
+ .debug_macro   0x00000000      0x103 src/timers.o
+ .debug_macro   0x00000000       0x6a src/timers.o
+ .debug_macro   0x00000000      0x1df src/timers.o
+ .debug_macro   0x00000000       0xd7 src/timers.o
+ .debug_macro   0x00000000       0x3b src/timers.o
+ .debug_macro   0x00000000       0x18 src/timers.o
+ .debug_macro   0x00000000       0x26 src/timers.o
+ .debug_macro   0x00000000      0xf9a src/timers.o
+ .debug_macro   0x00000000      0x3dc src/timers.o
+ .debug_macro   0x00000000      0x592 src/timers.o
+ .debug_macro   0x00000000     0x1797 src/timers.o
+ .debug_macro   0x00000000      0x3bb src/timers.o
+ .debug_macro   0x00000000      0x830 src/timers.o
+ .debug_macro   0x00000000      0x316 src/timers.o
+ .debug_macro   0x00000000     0x34d0 src/timers.o
+ .debug_macro   0x00000000       0x40 src/timers.o
+ .debug_macro   0x00000000     0x105e src/timers.o
+ .debug_macro   0x00000000      0x555 src/timers.o
+ .debug_macro   0x00000000      0xb8f src/timers.o
+ .debug_macro   0x00000000      0x527 src/timers.o
+ .debug_macro   0x00000000     0x3197 src/timers.o
+ .debug_macro   0x00000000     0x83ff src/timers.o
+ .debug_macro   0x00000000     0x31de src/timers.o
+ .debug_macro   0x00000000     0x2436 src/timers.o
+ .debug_macro   0x00000000      0x87f src/timers.o
+ .debug_macro   0x00000000      0x17d src/timers.o
+ .debug_macro   0x00000000      0x118 src/timers.o
+ .debug_macro   0x00000000      0x909 src/timers.o
+ .debug_macro   0x00000000      0x125 src/timers.o
+ .debug_macro   0x00000000      0x69c src/timers.o
+ .debug_macro   0x00000000      0xb64 src/timers.o
+ .debug_macro   0x00000000      0xf03 src/timers.o
+ .debug_macro   0x00000000      0xbac src/timers.o
+ .debug_macro   0x00000000      0x124 src/timers.o
+ .debug_macro   0x00000000      0xbc2 src/timers.o
+ .debug_macro   0x00000000      0x5c5 src/timers.o
+ .debug_macro   0x00000000     0x121d src/timers.o
+ .debug_macro   0x00000000     0x3505 src/timers.o
+ .debug_macro   0x00000000       0xc4 src/timers.o
+ .debug_macro   0x00000000      0x12d src/timers.o
+ .debug_macro   0x00000000     0x2780 src/timers.o
+ .debug_macro   0x00000000       0x46 src/timers.o
+ .debug_macro   0x00000000      0x147 src/timers.o
+ .debug_macro   0x00000000       0xc4 src/timers.o
+ .debug_macro   0x00000000       0xc4 src/timers.o
+ .debug_macro   0x00000000       0x16 src/timers.o
+ .debug_macro   0x00000000       0x76 src/timers.o
+ .debug_macro   0x00000000       0x40 src/timers.o
+ .debug_macro   0x00000000      0x56d src/timers.o
+ .debug_macro   0x00000000       0x40 src/timers.o
+ .debug_macro   0x00000000      0x7c7 src/timers.o
+ .debug_macro   0x00000000       0x82 src/timers.o
+ .debug_macro   0x00000000       0xa6 src/timers.o
+ .debug_macro   0x00000000      0x12a src/timers.o
+ .debug_macro   0x00000000      0x119 src/timers.o
+ .debug_macro   0x00000000      0x119 src/timers.o
+ .debug_macro   0x00000000      0x180 src/timers.o
+ .debug_macro   0x00000000      0x179 src/timers.o
+ .debug_macro   0x00000000      0x179 src/timers.o
+ .debug_macro   0x00000000      0x121 src/timers.o
+ .debug_macro   0x00000000      0x313 src/timers.o
+ .debug_macro   0x00000000      0x313 src/timers.o
+ .debug_macro   0x00000000       0x7c src/timers.o
+ .debug_macro   0x00000000       0x22 src/timers.o
+ .debug_macro   0x00000000       0x22 src/timers.o
+ .debug_macro   0x00000000       0x58 src/timers.o
+ .debug_macro   0x00000000       0x28 src/timers.o
+ .debug_macro   0x00000000       0x76 src/timers.o
+ .debug_macro   0x00000000       0x88 src/timers.o
+ .debug_macro   0x00000000       0x34 src/timers.o
+ .debug_macro   0x00000000      0x146 src/timers.o
+ .debug_macro   0x00000000      0x146 src/timers.o
+ .debug_macro   0x00000000      0x146 src/timers.o
+ .debug_macro   0x00000000      0x146 src/timers.o
+ .debug_macro   0x00000000       0x34 src/timers.o
+ .debug_macro   0x00000000       0x7c src/timers.o
+ .debug_macro   0x00000000       0x7c src/timers.o
+ .debug_macro   0x00000000       0x7c src/timers.o
+ .debug_macro   0x00000000       0x5e src/timers.o
+ .debug_macro   0x00000000       0x5e src/timers.o
+ .debug_macro   0x00000000       0x5e src/timers.o
+ .debug_macro   0x00000000       0x5e src/timers.o
+ .debug_macro   0x00000000       0x5e src/timers.o
+ .debug_macro   0x00000000       0xd6 src/timers.o
+ .debug_macro   0x00000000       0xd6 src/timers.o
+ .debug_macro   0x00000000       0xd6 src/timers.o
+ .debug_macro   0x00000000      0x718 src/timers.o
+ .debug_macro   0x00000000       0x16 src/timers.o
+ .debug_macro   0x00000000       0x22 src/timers.o
+ .debug_macro   0x00000000      0x9b8 src/timers.o
+ .debug_macro   0x00000000      0x4f7 src/timers.o
+ .debug_macro   0x00000000     0x1750 src/timers.o
+ .debug_macro   0x00000000      0x131 src/timers.o
+ .debug_line    0x00000000      0x642 src/timers.o
+ .debug_str     0x00000000   0x1065e9 src/timers.o
+ .comment       0x00000000       0x4e src/timers.o
+ .debug_frame   0x00000000       0x30 src/timers.o
+ .ARM.attributes
+                0x00000000       0x2e src/timers.o
+ .group         0x00000000        0x8 src/usb/usb_aud_ctr.o
+ .text          0x00000000        0x0 src/usb/usb_aud_ctr.o
+ .data          0x00000000        0x0 src/usb/usb_aud_ctr.o
+ .bss           0x00000000        0x0 src/usb/usb_aud_ctr.o
+ .debug_macro   0x00000000      0xa7e src/usb/usb_aud_ctr.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_core.o
+ .text          0x00000000        0x0 src/usb/usb_core.o
+ .data          0x00000000        0x0 src/usb/usb_core.o
+ .bss           0x00000000        0x0 src/usb/usb_core.o
+ .text.NVIC_EnableIRQ
+                0x00000000       0x30 src/usb/usb_core.o
+ .text.NVIC_SetPriority
+                0x00000000       0x54 src/usb/usb_core.o
+ .text.handle_control_data
+                0x00000000       0x20 src/usb/usb_core.o
+ .text.usb_init
+                0x00000000       0xe8 src/usb/usb_core.o
+ .debug_macro   0x00000000      0xa7e src/usb/usb_core.o
+ .debug_macro   0x00000000       0x22 src/usb/usb_core.o
+ .debug_macro   0x00000000       0x8e src/usb/usb_core.o
+ .debug_macro   0x00000000       0x51 src/usb/usb_core.o
+ .debug_macro   0x00000000      0x103 src/usb/usb_core.o
+ .debug_macro   0x00000000       0x6a src/usb/usb_core.o
+ .debug_macro   0x00000000      0x1df src/usb/usb_core.o
+ .debug_macro   0x00000000       0xd7 src/usb/usb_core.o
+ .debug_macro   0x00000000       0x3b src/usb/usb_core.o
+ .debug_macro   0x00000000       0x18 src/usb/usb_core.o
+ .debug_macro   0x00000000       0x26 src/usb/usb_core.o
+ .debug_macro   0x00000000      0xf9a src/usb/usb_core.o
+ .debug_macro   0x00000000      0x3dc src/usb/usb_core.o
+ .debug_macro   0x00000000      0x592 src/usb/usb_core.o
+ .debug_macro   0x00000000     0x1797 src/usb/usb_core.o
+ .debug_macro   0x00000000      0x3bb src/usb/usb_core.o
+ .debug_macro   0x00000000      0x830 src/usb/usb_core.o
+ .debug_macro   0x00000000      0x316 src/usb/usb_core.o
+ .debug_macro   0x00000000     0x34d0 src/usb/usb_core.o
+ .debug_macro   0x00000000       0x40 src/usb/usb_core.o
+ .debug_macro   0x00000000     0x105e src/usb/usb_core.o
+ .debug_macro   0x00000000      0x555 src/usb/usb_core.o
+ .debug_macro   0x00000000      0xb8f src/usb/usb_core.o
+ .debug_macro   0x00000000      0x527 src/usb/usb_core.o
+ .debug_macro   0x00000000     0x3197 src/usb/usb_core.o
+ .debug_macro   0x00000000     0x83ff src/usb/usb_core.o
+ .debug_macro   0x00000000     0x31de src/usb/usb_core.o
+ .debug_macro   0x00000000     0x2436 src/usb/usb_core.o
+ .debug_macro   0x00000000      0x87f src/usb/usb_core.o
+ .debug_macro   0x00000000      0x17d src/usb/usb_core.o
+ .debug_macro   0x00000000      0x118 src/usb/usb_core.o
+ .debug_macro   0x00000000      0x909 src/usb/usb_core.o
+ .debug_macro   0x00000000      0x125 src/usb/usb_core.o
+ .debug_macro   0x00000000      0x69c src/usb/usb_core.o
+ .debug_macro   0x00000000      0xb64 src/usb/usb_core.o
+ .debug_macro   0x00000000      0xf03 src/usb/usb_core.o
+ .debug_macro   0x00000000      0xbac src/usb/usb_core.o
+ .debug_macro   0x00000000      0x124 src/usb/usb_core.o
+ .debug_macro   0x00000000      0xbc2 src/usb/usb_core.o
+ .debug_macro   0x00000000      0x5c5 src/usb/usb_core.o
+ .debug_macro   0x00000000     0x121d src/usb/usb_core.o
+ .debug_macro   0x00000000     0x3505 src/usb/usb_core.o
+ .debug_macro   0x00000000       0xc4 src/usb/usb_core.o
+ .debug_macro   0x00000000      0x12d src/usb/usb_core.o
+ .debug_macro   0x00000000     0x2780 src/usb/usb_core.o
+ .debug_macro   0x00000000       0x46 src/usb/usb_core.o
+ .debug_macro   0x00000000      0x147 src/usb/usb_core.o
+ .debug_macro   0x00000000       0xc4 src/usb/usb_core.o
+ .debug_macro   0x00000000       0xc4 src/usb/usb_core.o
+ .debug_macro   0x00000000       0x16 src/usb/usb_core.o
+ .debug_macro   0x00000000       0x76 src/usb/usb_core.o
+ .debug_macro   0x00000000       0x40 src/usb/usb_core.o
+ .debug_macro   0x00000000      0x56d src/usb/usb_core.o
+ .debug_macro   0x00000000       0x40 src/usb/usb_core.o
+ .debug_macro   0x00000000      0x7c7 src/usb/usb_core.o
+ .debug_macro   0x00000000       0x82 src/usb/usb_core.o
+ .debug_macro   0x00000000       0xa6 src/usb/usb_core.o
+ .debug_macro   0x00000000      0x12a src/usb/usb_core.o
+ .debug_macro   0x00000000      0x119 src/usb/usb_core.o
+ .debug_macro   0x00000000      0x119 src/usb/usb_core.o
+ .debug_macro   0x00000000      0x180 src/usb/usb_core.o
+ .debug_macro   0x00000000      0x179 src/usb/usb_core.o
+ .debug_macro   0x00000000      0x179 src/usb/usb_core.o
+ .debug_macro   0x00000000      0x121 src/usb/usb_core.o
+ .debug_macro   0x00000000      0x313 src/usb/usb_core.o
+ .debug_macro   0x00000000      0x313 src/usb/usb_core.o
+ .debug_macro   0x00000000       0x7c src/usb/usb_core.o
+ .debug_macro   0x00000000       0x22 src/usb/usb_core.o
+ .debug_macro   0x00000000       0x22 src/usb/usb_core.o
+ .debug_macro   0x00000000       0x58 src/usb/usb_core.o
+ .debug_macro   0x00000000       0x28 src/usb/usb_core.o
+ .debug_macro   0x00000000       0x76 src/usb/usb_core.o
+ .debug_macro   0x00000000       0x88 src/usb/usb_core.o
+ .debug_macro   0x00000000       0x34 src/usb/usb_core.o
+ .debug_macro   0x00000000      0x146 src/usb/usb_core.o
+ .debug_macro   0x00000000      0x146 src/usb/usb_core.o
+ .debug_macro   0x00000000      0x146 src/usb/usb_core.o
+ .debug_macro   0x00000000      0x146 src/usb/usb_core.o
+ .debug_macro   0x00000000       0x34 src/usb/usb_core.o
+ .debug_macro   0x00000000       0x7c src/usb/usb_core.o
+ .debug_macro   0x00000000       0x7c src/usb/usb_core.o
+ .debug_macro   0x00000000       0x7c src/usb/usb_core.o
+ .debug_macro   0x00000000       0x5e src/usb/usb_core.o
+ .debug_macro   0x00000000       0x5e src/usb/usb_core.o
+ .debug_macro   0x00000000       0x5e src/usb/usb_core.o
+ .debug_macro   0x00000000       0x5e src/usb/usb_core.o
+ .debug_macro   0x00000000       0x5e src/usb/usb_core.o
+ .debug_macro   0x00000000       0xd6 src/usb/usb_core.o
+ .debug_macro   0x00000000       0xd6 src/usb/usb_core.o
+ .debug_macro   0x00000000       0xd6 src/usb/usb_core.o
+ .debug_macro   0x00000000      0x718 src/usb/usb_core.o
+ .debug_macro   0x00000000       0x16 src/usb/usb_core.o
+ .debug_macro   0x00000000       0x22 src/usb/usb_core.o
+ .debug_macro   0x00000000      0x9b8 src/usb/usb_core.o
+ .debug_macro   0x00000000      0x4f7 src/usb/usb_core.o
+ .debug_macro   0x00000000     0x1750 src/usb/usb_core.o
+ .debug_macro   0x00000000      0x131 src/usb/usb_core.o
+ .group         0x00000000        0x8 src/usb/usb_desc.o
+ .group         0x00000000        0x8 src/usb/usb_desc.o
+ .group         0x00000000        0x8 src/usb/usb_desc.o
+ .group         0x00000000        0x8 src/usb/usb_desc.o
+ .group         0x00000000        0x8 src/usb/usb_desc.o
+ .group         0x00000000        0x8 src/usb/usb_desc.o
+ .group         0x00000000        0x8 src/usb/usb_desc.o
+ .group         0x00000000        0x8 src/usb/usb_desc.o
+ .text          0x00000000        0x0 src/usb/usb_desc.o
+ .data          0x00000000        0x0 src/usb/usb_desc.o
+ .bss           0x00000000        0x0 src/usb/usb_desc.o
+ .rodata.sd_serial
+                0x00000000       0x16 src/usb/usb_desc.o
+ .rodata.serial_desc_size
+                0x00000000        0x1 src/usb/usb_desc.o
+ .debug_macro   0x00000000      0xa7e src/usb/usb_desc.o
+ .debug_macro   0x00000000       0x22 src/usb/usb_desc.o
+ .debug_macro   0x00000000       0x8e src/usb/usb_desc.o
+ .debug_macro   0x00000000       0x51 src/usb/usb_desc.o
+ .debug_macro   0x00000000      0x103 src/usb/usb_desc.o
+ .debug_macro   0x00000000       0x6a src/usb/usb_desc.o
+ .debug_macro   0x00000000      0x1df src/usb/usb_desc.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb/usb_iso.o
+ .text          0x00000000        0x0 src/usb/usb_iso.o
+ .data          0x00000000        0x0 src/usb/usb_iso.o
+ .bss           0x00000000        0x0 src/usb/usb_iso.o
+ .bss.audio_bytes
+                0x00000000     0x2000 src/usb/usb_iso.o
+ .data.usb_audio_buf
+                0x00000000       0x10 src/usb/usb_iso.o
+ .text.read_iso_data
+                0x00000000       0x54 src/usb/usb_iso.o
+ .text.handle_stream_data
+                0x00000000       0x58 src/usb/usb_iso.o
+ .debug_info    0x00000000     0x3b77 src/usb/usb_iso.o
+ .debug_abbrev  0x00000000      0x1e5 src/usb/usb_iso.o
+ .debug_aranges
+                0x00000000       0x28 src/usb/usb_iso.o
+ .debug_ranges  0x00000000       0x18 src/usb/usb_iso.o
+ .debug_macro   0x00000000      0x405 src/usb/usb_iso.o
+ .debug_macro   0x00000000      0xa7e src/usb/usb_iso.o
+ .debug_macro   0x00000000       0x22 src/usb/usb_iso.o
+ .debug_macro   0x00000000       0x8e src/usb/usb_iso.o
+ .debug_macro   0x00000000       0x51 src/usb/usb_iso.o
+ .debug_macro   0x00000000      0x103 src/usb/usb_iso.o
+ .debug_macro   0x00000000       0x6a src/usb/usb_iso.o
+ .debug_macro   0x00000000      0x1df src/usb/usb_iso.o
+ .debug_macro   0x00000000       0xd1 src/usb/usb_iso.o
+ .debug_macro   0x00000000       0x3b src/usb/usb_iso.o
+ .debug_macro   0x00000000       0x18 src/usb/usb_iso.o
+ .debug_macro   0x00000000       0x26 src/usb/usb_iso.o
+ .debug_macro   0x00000000      0xf9a src/usb/usb_iso.o
+ .debug_macro   0x00000000      0x3dc src/usb/usb_iso.o
+ .debug_macro   0x00000000      0x592 src/usb/usb_iso.o
+ .debug_macro   0x00000000     0x1797 src/usb/usb_iso.o
+ .debug_macro   0x00000000      0x3bb src/usb/usb_iso.o
+ .debug_macro   0x00000000      0x830 src/usb/usb_iso.o
+ .debug_macro   0x00000000      0x316 src/usb/usb_iso.o
+ .debug_macro   0x00000000     0x34d0 src/usb/usb_iso.o
+ .debug_macro   0x00000000       0x40 src/usb/usb_iso.o
+ .debug_macro   0x00000000     0x105e src/usb/usb_iso.o
+ .debug_macro   0x00000000      0x555 src/usb/usb_iso.o
+ .debug_macro   0x00000000      0xb8f src/usb/usb_iso.o
+ .debug_macro   0x00000000      0x527 src/usb/usb_iso.o
+ .debug_macro   0x00000000     0x3197 src/usb/usb_iso.o
+ .debug_macro   0x00000000     0x83ff src/usb/usb_iso.o
+ .debug_macro   0x00000000     0x31de src/usb/usb_iso.o
+ .debug_macro   0x00000000     0x2436 src/usb/usb_iso.o
+ .debug_macro   0x00000000      0x87f src/usb/usb_iso.o
+ .debug_macro   0x00000000      0x17d src/usb/usb_iso.o
+ .debug_macro   0x00000000      0x118 src/usb/usb_iso.o
+ .debug_macro   0x00000000      0x909 src/usb/usb_iso.o
+ .debug_macro   0x00000000      0x125 src/usb/usb_iso.o
+ .debug_macro   0x00000000      0x69c src/usb/usb_iso.o
+ .debug_macro   0x00000000      0xb64 src/usb/usb_iso.o
+ .debug_macro   0x00000000      0xf03 src/usb/usb_iso.o
+ .debug_macro   0x00000000      0xbac src/usb/usb_iso.o
+ .debug_macro   0x00000000      0x124 src/usb/usb_iso.o
+ .debug_macro   0x00000000      0xbc2 src/usb/usb_iso.o
+ .debug_macro   0x00000000      0x5c5 src/usb/usb_iso.o
+ .debug_macro   0x00000000     0x121d src/usb/usb_iso.o
+ .debug_macro   0x00000000     0x3505 src/usb/usb_iso.o
+ .debug_macro   0x00000000       0xc4 src/usb/usb_iso.o
+ .debug_macro   0x00000000      0x12d src/usb/usb_iso.o
+ .debug_macro   0x00000000     0x2780 src/usb/usb_iso.o
+ .debug_macro   0x00000000       0x46 src/usb/usb_iso.o
+ .debug_macro   0x00000000      0x147 src/usb/usb_iso.o
+ .debug_macro   0x00000000       0xc4 src/usb/usb_iso.o
+ .debug_macro   0x00000000       0xc4 src/usb/usb_iso.o
+ .debug_macro   0x00000000       0x16 src/usb/usb_iso.o
+ .debug_macro   0x00000000       0x76 src/usb/usb_iso.o
+ .debug_macro   0x00000000       0x40 src/usb/usb_iso.o
+ .debug_macro   0x00000000      0x56d src/usb/usb_iso.o
+ .debug_macro   0x00000000       0x40 src/usb/usb_iso.o
+ .debug_macro   0x00000000      0x7c7 src/usb/usb_iso.o
+ .debug_macro   0x00000000       0x82 src/usb/usb_iso.o
+ .debug_macro   0x00000000       0xa6 src/usb/usb_iso.o
+ .debug_macro   0x00000000      0x12a src/usb/usb_iso.o
+ .debug_macro   0x00000000      0x119 src/usb/usb_iso.o
+ .debug_macro   0x00000000      0x119 src/usb/usb_iso.o
+ .debug_macro   0x00000000      0x180 src/usb/usb_iso.o
+ .debug_macro   0x00000000      0x179 src/usb/usb_iso.o
+ .debug_macro   0x00000000      0x179 src/usb/usb_iso.o
+ .debug_macro   0x00000000      0x121 src/usb/usb_iso.o
+ .debug_macro   0x00000000      0x313 src/usb/usb_iso.o
+ .debug_macro   0x00000000      0x313 src/usb/usb_iso.o
+ .debug_macro   0x00000000       0x7c src/usb/usb_iso.o
+ .debug_macro   0x00000000       0x22 src/usb/usb_iso.o
+ .debug_macro   0x00000000       0x22 src/usb/usb_iso.o
+ .debug_macro   0x00000000       0x58 src/usb/usb_iso.o
+ .debug_macro   0x00000000       0x28 src/usb/usb_iso.o
+ .debug_macro   0x00000000       0x76 src/usb/usb_iso.o
+ .debug_macro   0x00000000       0x88 src/usb/usb_iso.o
+ .debug_macro   0x00000000       0x34 src/usb/usb_iso.o
+ .debug_macro   0x00000000      0x146 src/usb/usb_iso.o
+ .debug_macro   0x00000000      0x146 src/usb/usb_iso.o
+ .debug_macro   0x00000000      0x146 src/usb/usb_iso.o
+ .debug_macro   0x00000000      0x146 src/usb/usb_iso.o
+ .debug_macro   0x00000000       0x34 src/usb/usb_iso.o
+ .debug_macro   0x00000000       0x7c src/usb/usb_iso.o
+ .debug_macro   0x00000000       0x7c src/usb/usb_iso.o
+ .debug_macro   0x00000000       0x7c src/usb/usb_iso.o
+ .debug_macro   0x00000000       0x5e src/usb/usb_iso.o
+ .debug_macro   0x00000000       0x5e src/usb/usb_iso.o
+ .debug_macro   0x00000000       0x5e src/usb/usb_iso.o
+ .debug_macro   0x00000000       0x5e src/usb/usb_iso.o
+ .debug_macro   0x00000000       0x5e src/usb/usb_iso.o
+ .debug_macro   0x00000000       0xd6 src/usb/usb_iso.o
+ .debug_macro   0x00000000       0xd6 src/usb/usb_iso.o
+ .debug_macro   0x00000000       0xd6 src/usb/usb_iso.o
+ .debug_macro   0x00000000      0x718 src/usb/usb_iso.o
+ .debug_macro   0x00000000       0x16 src/usb/usb_iso.o
+ .debug_macro   0x00000000       0x22 src/usb/usb_iso.o
+ .debug_macro   0x00000000      0x9b8 src/usb/usb_iso.o
+ .debug_macro   0x00000000      0x4f7 src/usb/usb_iso.o
+ .debug_macro   0x00000000     0x1750 src/usb/usb_iso.o
+ .debug_macro   0x00000000      0x131 src/usb/usb_iso.o
+ .debug_macro   0x00000000       0x28 src/usb/usb_iso.o
+ .debug_line    0x00000000      0x6b7 src/usb/usb_iso.o
+ .debug_str     0x00000000   0x10793e src/usb/usb_iso.o
+ .comment       0x00000000       0x4e src/usb/usb_iso.o
+ .debug_frame   0x00000000       0x54 src/usb/usb_iso.o
+ .ARM.attributes
+                0x00000000       0x2e src/usb/usb_iso.o
+ .group         0x00000000        0x8 src/usb_mem.o
+ .group         0x00000000        0x8 src/usb_mem.o
+ .group         0x00000000        0x8 src/usb_mem.o
+ .group         0x00000000        0x8 src/usb_mem.o
+ .group         0x00000000        0x8 src/usb_mem.o
+ .group         0x00000000        0x8 src/usb_mem.o
+ .group         0x00000000        0x8 src/usb_mem.o
+ .group         0x00000000        0x8 src/usb_mem.o
+ .group         0x00000000        0x8 src/usb_mem.o
+ .group         0x00000000        0x8 src/usb_mem.o
+ .group         0x00000000        0x8 src/usb_mem.o
+ .group         0x00000000        0x8 src/usb_mem.o
+ .group         0x00000000        0x8 src/usb_mem.o
+ .text          0x00000000        0x0 src/usb_mem.o
+ .data          0x00000000        0x0 src/usb_mem.o
+ .bss           0x00000000        0x0 src/usb_mem.o
+ .text.memset   0x00000000       0x3c src/usb_mem.o
+ .debug_info    0x00000000      0x112 src/usb_mem.o
+ .debug_abbrev  0x00000000       0xa4 src/usb_mem.o
+ .debug_aranges
+                0x00000000       0x20 src/usb_mem.o
+ .debug_ranges  0x00000000       0x10 src/usb_mem.o
+ .debug_macro   0x00000000       0xb9 src/usb_mem.o
+ .debug_macro   0x00000000      0xa7e src/usb_mem.o
+ .debug_macro   0x00000000       0x22 src/usb_mem.o
+ .debug_macro   0x00000000       0x5e src/usb_mem.o
+ .debug_macro   0x00000000       0x18 src/usb_mem.o
+ .debug_macro   0x00000000       0x94 src/usb_mem.o
+ .debug_macro   0x00000000       0x35 src/usb_mem.o
+ .debug_macro   0x00000000      0x103 src/usb_mem.o
+ .debug_macro   0x00000000       0x3a src/usb_mem.o
+ .debug_macro   0x00000000       0x57 src/usb_mem.o
+ .debug_macro   0x00000000       0x6a src/usb_mem.o
+ .debug_macro   0x00000000      0x1df src/usb_mem.o
+ .debug_macro   0x00000000       0x82 src/usb_mem.o
+ .debug_macro   0x00000000      0x4cc src/usb_mem.o
+ .debug_line    0x00000000      0x2ba src/usb_mem.o
+ .debug_str     0x00000000     0x5269 src/usb_mem.o
+ .comment       0x00000000       0x4e src/usb_mem.o
+ .debug_frame   0x00000000       0x38 src/usb_mem.o
+ .ARM.attributes
+                0x00000000       0x2e src/usb_mem.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+flash            0x00400000         0x00080000         xr
+ram              0x20400000         0x00040000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD src/debug_uart.o
+LOAD src/main.o
+LOAD src/startup_same70.o
+LOAD src/timers.o
+LOAD src/usb/usb_aud_ctr.o
+LOAD src/usb/usb_core.o
+LOAD src/usb/usb_desc.o
+LOAD src/usb/usb_iso.o
+LOAD src/usb_mem.o
+START GROUP
+END GROUP
+                0x00480000                __top_flash = (ORIGIN (flash) + LENGTH (flash))
+                0x20440000                __top_ram = (ORIGIN (ram) + LENGTH (ram))
+
+.text           0x00400000      0xd64
+ FILL mask 0xff
+ *(.vectors)
+ .vectors       0x00400000      0x140 src/startup_same70.o
+                0x00400000                vectors
+ *(.text*)
+ .text.irq_handler_uart0
+                0x00400140       0x4c src/debug_uart.o
+                0x00400140                irq_handler_uart0
+ .text.uart_init
+                0x0040018c       0x54 src/debug_uart.o
+                0x0040018c                uart_init
+ .text.uart_write
+                0x004001e0       0xbc src/debug_uart.o
+                0x004001e0                uart_write
+ .text.NVIC_SetPriorityGrouping
+                0x0040029c       0x48 src/main.o
+ .text.sys_init
+                0x004002e4       0xf8 src/main.o
+ .text.NVIC_Initialize
+                0x004003dc       0x18 src/main.o
+ .text.main     0x004003f4       0x44 src/main.o
+                0x004003f4                main
+ .text.irq_handler_reset
+                0x00400438       0x88 src/startup_same70.o
+                0x00400438                irq_handler_reset
+ .text.irq_handler_dummy
+                0x004004c0        0x6 src/startup_same70.o
+                0x004004c0                irq_handler_uart3
+                0x004004c0                irq_handler_pioc
+                0x004004c0                irq_handler_piod
+                0x004004c0                irq_handler_pioa
+                0x004004c0                irq_handler_xdmac
+                0x004004c0                irq_handler_acc
+                0x004004c0                irq_handler_pend_sv
+                0x004004c0                irq_handler_mcan1
+                0x004004c0                irq_handler_dummy
+                0x004004c0                irq_handler_tc5
+                0x004004c0                irq_handler_pwm0
+                0x004004c0                irq_handler_efc
+                0x004004c0                irq_handler_rswdt
+                0x004004c0                irq_handler_wdt
+                0x004004c0                irq_handler_ssc
+                0x004004c0                irq_handler_usart1
+                0x004004c0                irq_handler_rstc
+                0x004004c0                irq_handler_isi
+                0x004004c0                irq_handler_gmac
+                0x004004c0                irq_handler_twihs0
+                0x004004c0                irq_handler_tc0
+                0x004004c0                irq_handler_tc10
+                0x004004c0                irq_handler_afec0
+                0x004004c0                irq_handler_usart0
+                0x004004c0                irq_handler_tc8
+                0x004004c0                irq_handler_pioe
+                0x004004c0                irq_handler_tc3
+                0x004004c0                irq_handler_rtt
+                0x004004c0                irq_handler_tc6
+                0x004004c0                irq_handler_mm_fault
+                0x004004c0                irq_handler_twihs1
+                0x004004c0                irq_handler_aes
+                0x004004c0                irq_handler_pwm1
+                0x004004c0                irq_handler_uart2
+                0x004004c0                irq_handler_bus_fault
+                0x004004c0                irq_handler_spi0
+                0x004004c0                irq_handler_debug_mon
+                0x004004c0                irq_handler_nmi
+                0x004004c0                irq_handler_pmc
+                0x004004c0                irq_handler_sv_call
+                0x004004c0                irq_handler_mcan0
+                0x004004c0                irq_handler_tc9
+                0x004004c0                irq_handler_sdramc
+                0x004004c0                irq_handler_trng
+                0x004004c0                irq_handler_piob
+                0x004004c0                irq_handler_qspi
+                0x004004c0                irq_handler_supc
+                0x004004c0                irq_handler_hsmci
+                0x004004c0                irq_handler_usart2
+                0x004004c0                irq_handler_twihs2
+                0x004004c0                irq_handler_tc1
+                0x004004c0                irq_handler_sys_tick
+                0x004004c0                irq_handler_tc7
+                0x004004c0                irq_handler_uart1
+                0x004004c0                irq_handler_uart4
+                0x004004c0                irq_handler_spi1
+                0x004004c0                irq_handler_hard_fault
+                0x004004c0                irq_handler_rtc
+                0x004004c0                irq_handler_tc4
+                0x004004c0                irq_handler_icm
+                0x004004c0                irq_handler_tc2
+                0x004004c0                irq_handler_dacc
+                0x004004c0                irq_handler_usage_fault
+                0x004004c0                irq_handler_afec1
+                0x004004c0                irq_handler_tc11
+ .text.handle_aud_ctr_ep
+                0x004004c6        0xc src/usb/usb_aud_ctr.o
+                0x004004c6                handle_aud_ctr_ep
+ *fill*         0x004004d2        0x2 ff
+ .text.parse_setup_packet
+                0x004004d4       0x7c src/usb/usb_core.o
+ .text.send_usb_data
+                0x00400550      0x144 src/usb/usb_core.o
+ .text.get_descriptor
+                0x00400694      0x118 src/usb/usb_core.o
+ .text.get_usb_data
+                0x004007ac       0x98 src/usb/usb_core.o
+ .text.handle_ep_req
+                0x00400844       0x80 src/usb/usb_core.o
+ .text.handle_interface_req
+                0x004008c4       0x90 src/usb/usb_core.o
+ .text.handle_device_req
+                0x00400954       0xc0 src/usb/usb_core.o
+ .text.handle_status_packet
+                0x00400a14       0x4c src/usb/usb_core.o
+ .text.handle_control_ep
+                0x00400a60       0x74 src/usb/usb_core.o
+ .text.init_endpoints
+                0x00400ad4       0xcc src/usb/usb_core.o
+ .text.usb_wakeup_handler
+                0x00400ba0       0x88 src/usb/usb_core.o
+ .text.irq_handler_usbhs
+                0x00400c28       0x5c src/usb/usb_core.o
+                0x00400c28                irq_handler_usbhs
+ *(.rodata)
+ .rodata        0x00400c84        0x4 src/main.o
+ *(.rodata.*)
+ .rodata.sd_vendor
+                0x00400c88       0x18 src/usb/usb_desc.o
+                0x00400c88                sd_vendor
+ .rodata.sd_product
+                0x00400ca0        0x8 src/usb/usb_desc.o
+                0x00400ca0                sd_product
+ .rodata.sd_lang_ID
+                0x00400ca8        0x4 src/usb/usb_desc.o
+                0x00400ca8                sd_lang_ID
+ .rodata.dev_desc
+                0x00400cac       0x12 src/usb/usb_desc.o
+                0x00400cac                dev_desc
+ *fill*         0x00400cbe        0x2 ff
+ .rodata.config_desc
+                0x00400cc0       0x9f src/usb/usb_desc.o
+                0x00400cc0                config_desc
+ .rodata.vendor_desc_size
+                0x00400d5f        0x1 src/usb/usb_desc.o
+                0x00400d5f                vendor_desc_size
+ .rodata.product_desc_size
+                0x00400d60        0x1 src/usb/usb_desc.o
+                0x00400d60                product_desc_size
+ .rodata.lang_ID_desc_size
+                0x00400d61        0x1 src/usb/usb_desc.o
+                0x00400d61                lang_ID_desc_size
+ .rodata.dev_desc_size
+                0x00400d62        0x1 src/usb/usb_desc.o
+                0x00400d62                dev_desc_size
+ .rodata.config_desc_size
+                0x00400d63        0x1 src/usb/usb_desc.o
+                0x00400d63                config_desc_size
+                0x00400d64                . = ALIGN (0x4)
+
+.glue_7         0x00400d64        0x0
+ .glue_7        0x00400d64        0x0 linker stubs
+
+.glue_7t        0x00400d64        0x0
+ .glue_7t       0x00400d64        0x0 linker stubs
+
+.vfp11_veneer   0x00400d64        0x0
+ .vfp11_veneer  0x00400d64        0x0 linker stubs
+
+.v4_bx          0x00400d64        0x0
+ .v4_bx         0x00400d64        0x0 linker stubs
+
+.iplt           0x00400d64        0x0
+ .iplt          0x00400d64        0x0 src/debug_uart.o
+
+.rel.dyn        0x00400d64        0x0
+ .rel.iplt      0x00400d64        0x0 src/debug_uart.o
+                0x00400d64                . = ALIGN (0x4)
+                0x00400d64                _etext = .
+
+.uninit_RESERVED
+ *(.bss.$RESERVED*)
+
+.data           0x20400000       0x50 load address 0x00400d64
+ FILL mask 0xff
+                0x20400000                _data = .
+ *(.ramfunc .ramfunc.*)
+ *(vtable)
+ *(.data*)
+ .data.endpoints
+                0x20400000       0x50 src/usb/usb_core.o
+                0x20400000                endpoints
+                0x20400050                . = ALIGN (0x4)
+                0x20400050                _edata = .
+
+.igot.plt       0x20400050        0x0 load address 0x00400db4
+ .igot.plt      0x20400050        0x0 src/debug_uart.o
+
+.bss            0x20400050      0x198 load address 0x00400db4
+                0x20400050                _bss = .
+ *(.bss*)
+ .bss.uart_buf  0x20400050      0x101 src/debug_uart.o
+                0x20400050                uart_buf
+ *fill*         0x20400151        0x3 
+ .bss.curr_index
+                0x20400154        0x4 src/debug_uart.o
+                0x20400154                curr_index
+ .bss.data_size
+                0x20400158        0x2 src/debug_uart.o
+                0x20400158                data_size
+ *fill*         0x2040015a        0x2 
+ .bss.ctr_buf   0x2040015c       0x40 src/usb/usb_core.o
+                0x2040015c                ctr_buf
+ .bss.audio_ctr_buf
+                0x2040019c       0x40 src/usb/usb_core.o
+                0x2040019c                audio_ctr_buf
+ .bss.feedback_buf
+                0x204001dc        0x8 src/usb/usb_core.o
+                0x204001dc                feedback_buf
+ .bss.dev_configured
+                0x204001e4        0x1 src/usb/usb_core.o
+                0x204001e4                dev_configured
+ *(COMMON)
+                0x204001e8                . = ALIGN (0x4)
+ *fill*         0x204001e5        0x3 
+                0x204001e8                _ebss = .
+                [!provide]                PROVIDE (_end, .)
+                0x20440000                PROVIDE (_stack_top, (__top_ram - 0x0))
+OUTPUT(DAC_FIRMWARE.elf elf32-littlearm)
+
+.debug_info     0x00000000    0x17e63
+ .debug_info    0x00000000     0xb446 src/debug_uart.o
+ .debug_info    0x0000b446     0x47d3 src/main.o
+ .debug_info    0x0000fc19      0x549 src/startup_same70.o
+ .debug_info    0x00010162       0x3c src/usb/usb_aud_ctr.o
+ .debug_info    0x0001019e     0x7a62 src/usb/usb_core.o
+ .debug_info    0x00017c00      0x263 src/usb/usb_desc.o
+
+.debug_abbrev   0x00000000      0x9b9
+ .debug_abbrev  0x00000000      0x1ef src/debug_uart.o
+ .debug_abbrev  0x000001ef      0x254 src/main.o
+ .debug_abbrev  0x00000443      0x16a src/startup_same70.o
+ .debug_abbrev  0x000005ad       0x31 src/usb/usb_aud_ctr.o
+ .debug_abbrev  0x000005de      0x352 src/usb/usb_core.o
+ .debug_abbrev  0x00000930       0x89 src/usb/usb_desc.o
+
+.debug_aranges  0x00000000      0x168
+ .debug_aranges
+                0x00000000       0x30 src/debug_uart.o
+ .debug_aranges
+                0x00000030       0x40 src/main.o
+ .debug_aranges
+                0x00000070       0x28 src/startup_same70.o
+ .debug_aranges
+                0x00000098       0x20 src/usb/usb_aud_ctr.o
+ .debug_aranges
+                0x000000b8       0x98 src/usb/usb_core.o
+ .debug_aranges
+                0x00000150       0x18 src/usb/usb_desc.o
+
+.debug_ranges   0x00000000      0x100
+ .debug_ranges  0x00000000       0x20 src/debug_uart.o
+ .debug_ranges  0x00000020       0x30 src/main.o
+ .debug_ranges  0x00000050       0x18 src/startup_same70.o
+ .debug_ranges  0x00000068       0x10 src/usb/usb_aud_ctr.o
+ .debug_ranges  0x00000078       0x88 src/usb/usb_core.o
+
+.debug_macro    0x00000000    0x2f866
+ .debug_macro   0x00000000      0x3fc src/debug_uart.o
+ .debug_macro   0x000003fc      0xa7e src/debug_uart.o
+ .debug_macro   0x00000e7a       0x22 src/debug_uart.o
+ .debug_macro   0x00000e9c       0x8e src/debug_uart.o
+ .debug_macro   0x00000f2a       0x51 src/debug_uart.o
+ .debug_macro   0x00000f7b      0x103 src/debug_uart.o
+ .debug_macro   0x0000107e       0x6a src/debug_uart.o
+ .debug_macro   0x000010e8      0x1df src/debug_uart.o
+ .debug_macro   0x000012c7       0xd7 src/debug_uart.o
+ .debug_macro   0x0000139e       0x3b src/debug_uart.o
+ .debug_macro   0x000013d9       0x18 src/debug_uart.o
+ .debug_macro   0x000013f1       0x26 src/debug_uart.o
+ .debug_macro   0x00001417      0xf9a src/debug_uart.o
+ .debug_macro   0x000023b1      0x3dc src/debug_uart.o
+ .debug_macro   0x0000278d      0x592 src/debug_uart.o
+ .debug_macro   0x00002d1f     0x1797 src/debug_uart.o
+ .debug_macro   0x000044b6      0x3bb src/debug_uart.o
+ .debug_macro   0x00004871      0x830 src/debug_uart.o
+ .debug_macro   0x000050a1      0x316 src/debug_uart.o
+ .debug_macro   0x000053b7     0x34d0 src/debug_uart.o
+ .debug_macro   0x00008887       0x40 src/debug_uart.o
+ .debug_macro   0x000088c7     0x105e src/debug_uart.o
+ .debug_macro   0x00009925      0x555 src/debug_uart.o
+ .debug_macro   0x00009e7a      0xb8f src/debug_uart.o
+ .debug_macro   0x0000aa09      0x527 src/debug_uart.o
+ .debug_macro   0x0000af30     0x3197 src/debug_uart.o
+ .debug_macro   0x0000e0c7     0x83ff src/debug_uart.o
+ .debug_macro   0x000164c6     0x31de src/debug_uart.o
+ .debug_macro   0x000196a4     0x2436 src/debug_uart.o
+ .debug_macro   0x0001bada      0x87f src/debug_uart.o
+ .debug_macro   0x0001c359      0x17d src/debug_uart.o
+ .debug_macro   0x0001c4d6      0x118 src/debug_uart.o
+ .debug_macro   0x0001c5ee      0x909 src/debug_uart.o
+ .debug_macro   0x0001cef7      0x125 src/debug_uart.o
+ .debug_macro   0x0001d01c      0x69c src/debug_uart.o
+ .debug_macro   0x0001d6b8      0xb64 src/debug_uart.o
+ .debug_macro   0x0001e21c      0xf03 src/debug_uart.o
+ .debug_macro   0x0001f11f      0xbac src/debug_uart.o
+ .debug_macro   0x0001fccb      0x124 src/debug_uart.o
+ .debug_macro   0x0001fdef      0xbc2 src/debug_uart.o
+ .debug_macro   0x000209b1      0x5c5 src/debug_uart.o
+ .debug_macro   0x00020f76     0x121d src/debug_uart.o
+ .debug_macro   0x00022193     0x3505 src/debug_uart.o
+ .debug_macro   0x00025698       0xc4 src/debug_uart.o
+ .debug_macro   0x0002575c      0x12d src/debug_uart.o
+ .debug_macro   0x00025889     0x2780 src/debug_uart.o
+ .debug_macro   0x00028009       0x46 src/debug_uart.o
+ .debug_macro   0x0002804f      0x147 src/debug_uart.o
+ .debug_macro   0x00028196       0xc4 src/debug_uart.o
+ .debug_macro   0x0002825a       0xc4 src/debug_uart.o
+ .debug_macro   0x0002831e       0x16 src/debug_uart.o
+ .debug_macro   0x00028334       0x76 src/debug_uart.o
+ .debug_macro   0x000283aa       0x40 src/debug_uart.o
+ .debug_macro   0x000283ea      0x56d src/debug_uart.o
+ .debug_macro   0x00028957       0x40 src/debug_uart.o
+ .debug_macro   0x00028997      0x7c7 src/debug_uart.o
+ .debug_macro   0x0002915e       0x82 src/debug_uart.o
+ .debug_macro   0x000291e0       0xa6 src/debug_uart.o
+ .debug_macro   0x00029286      0x12a src/debug_uart.o
+ .debug_macro   0x000293b0      0x119 src/debug_uart.o
+ .debug_macro   0x000294c9      0x119 src/debug_uart.o
+ .debug_macro   0x000295e2      0x180 src/debug_uart.o
+ .debug_macro   0x00029762      0x179 src/debug_uart.o
+ .debug_macro   0x000298db      0x179 src/debug_uart.o
+ .debug_macro   0x00029a54      0x121 src/debug_uart.o
+ .debug_macro   0x00029b75      0x313 src/debug_uart.o
+ .debug_macro   0x00029e88      0x313 src/debug_uart.o
+ .debug_macro   0x0002a19b       0x7c src/debug_uart.o
+ .debug_macro   0x0002a217       0x22 src/debug_uart.o
+ .debug_macro   0x0002a239       0x22 src/debug_uart.o
+ .debug_macro   0x0002a25b       0x58 src/debug_uart.o
+ .debug_macro   0x0002a2b3       0x28 src/debug_uart.o
+ .debug_macro   0x0002a2db       0x76 src/debug_uart.o
+ .debug_macro   0x0002a351       0x88 src/debug_uart.o
+ .debug_macro   0x0002a3d9       0x34 src/debug_uart.o
+ .debug_macro   0x0002a40d      0x146 src/debug_uart.o
+ .debug_macro   0x0002a553      0x146 src/debug_uart.o
+ .debug_macro   0x0002a699      0x146 src/debug_uart.o
+ .debug_macro   0x0002a7df      0x146 src/debug_uart.o
+ .debug_macro   0x0002a925       0x34 src/debug_uart.o
+ .debug_macro   0x0002a959       0x7c src/debug_uart.o
+ .debug_macro   0x0002a9d5       0x7c src/debug_uart.o
+ .debug_macro   0x0002aa51       0x7c src/debug_uart.o
+ .debug_macro   0x0002aacd       0x5e src/debug_uart.o
+ .debug_macro   0x0002ab2b       0x5e src/debug_uart.o
+ .debug_macro   0x0002ab89       0x5e src/debug_uart.o
+ .debug_macro   0x0002abe7       0x5e src/debug_uart.o
+ .debug_macro   0x0002ac45       0x5e src/debug_uart.o
+ .debug_macro   0x0002aca3       0xd6 src/debug_uart.o
+ .debug_macro   0x0002ad79       0xd6 src/debug_uart.o
+ .debug_macro   0x0002ae4f       0xd6 src/debug_uart.o
+ .debug_macro   0x0002af25      0x718 src/debug_uart.o
+ .debug_macro   0x0002b63d       0x16 src/debug_uart.o
+ .debug_macro   0x0002b653       0x22 src/debug_uart.o
+ .debug_macro   0x0002b675      0x9b8 src/debug_uart.o
+ .debug_macro   0x0002c02d      0x4f7 src/debug_uart.o
+ .debug_macro   0x0002c524     0x1750 src/debug_uart.o
+ .debug_macro   0x0002dc74      0x131 src/debug_uart.o
+ .debug_macro   0x0002dda5      0x41a src/main.o
+ .debug_macro   0x0002e1bf      0x8c8 src/main.o
+ .debug_macro   0x0002ea87       0x22 src/main.o
+ .debug_macro   0x0002eaa9       0x87 src/main.o
+ .debug_macro   0x0002eb30       0xef src/main.o
+ .debug_macro   0x0002ec1f       0xd1 src/main.o
+ .debug_macro   0x0002ecf0       0x10 src/main.o
+ .debug_macro   0x0002ed00       0x28 src/main.o
+ .debug_macro   0x0002ed28      0x3f8 src/startup_same70.o
+ .debug_macro   0x0002f120       0x1b src/usb/usb_aud_ctr.o
+ .debug_macro   0x0002f13b      0x4d1 src/usb/usb_core.o
+ .debug_macro   0x0002f60c       0x22 src/usb/usb_core.o
+ .debug_macro   0x0002f62e       0x96 src/usb/usb_desc.o
+ .debug_macro   0x0002f6c4      0x1a2 src/usb/usb_desc.o
+
+.debug_line     0x00000000     0x2342
+ .debug_line    0x00000000      0x72b src/debug_uart.o
+ .debug_line    0x0000072b      0x724 src/main.o
+ .debug_line    0x00000e4f      0x6a2 src/startup_same70.o
+ .debug_line    0x000014f1       0x67 src/usb/usb_aud_ctr.o
+ .debug_line    0x00001558      0xb82 src/usb/usb_core.o
+ .debug_line    0x000020da      0x268 src/usb/usb_desc.o
+
+.debug_str      0x00000000   0x10a7a5
+ .debug_str     0x00000000   0x106f78 src/debug_uart.o
+                             0x107787 (size before relaxing)
+ .debug_str     0x00106f78     0x12ba src/main.o
+                             0x1074e0 (size before relaxing)
+ .debug_str     0x00108232       0xa3 src/startup_same70.o
+                             0x1067e5 (size before relaxing)
+ .debug_str     0x001082d5       0x3b src/usb/usb_aud_ctr.o
+                               0x2d13 (size before relaxing)
+ .debug_str     0x00108310     0x198f src/usb/usb_core.o
+                             0x108afe (size before relaxing)
+ .debug_str     0x00109c9f      0xb06 src/usb/usb_desc.o
+                               0x47c2 (size before relaxing)
+
+.comment        0x00000000       0xa6
+ .comment       0x00000000       0x4d src/debug_uart.o
+                                 0x4e (size before relaxing)
+ .comment       0x0000004d       0x59 src/main.o
+                                 0x5a (size before relaxing)
+ .comment       0x000000a6       0x4e src/startup_same70.o
+ .comment       0x000000a6       0x4e src/usb/usb_aud_ctr.o
+ .comment       0x000000a6       0x4e src/usb/usb_core.o
+ .comment       0x000000a6       0x4e src/usb/usb_desc.o
+
+.ARM.attributes
+                0x00000000       0x2e
+ .ARM.attributes
+                0x00000000       0x2e src/debug_uart.o
+ .ARM.attributes
+                0x0000002e       0x33 src/main.o
+ .ARM.attributes
+                0x00000061       0x2e src/startup_same70.o
+ .ARM.attributes
+                0x0000008f       0x2e src/usb/usb_aud_ctr.o
+ .ARM.attributes
+                0x000000bd       0x2e src/usb/usb_core.o
+ .ARM.attributes
+                0x000000eb       0x33 src/usb/usb_desc.o
+
+.debug_frame    0x00000000      0x3f8
+ .debug_frame   0x00000000       0x78 src/debug_uart.o
+ .debug_frame   0x00000078       0xbc src/main.o
+ .debug_frame   0x00000134       0x48 src/startup_same70.o
+ .debug_frame   0x0000017c       0x30 src/usb/usb_aud_ctr.o
+ .debug_frame   0x000001ac      0x24c src/usb/usb_core.o
+
+.debug_loc      0x00000000      0x160
+ .debug_loc     0x00000000      0x160 src/main.o

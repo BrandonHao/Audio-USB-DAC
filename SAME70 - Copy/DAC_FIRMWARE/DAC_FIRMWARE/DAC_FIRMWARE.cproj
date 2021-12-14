@@ -1,0 +1,626 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>7.0</ProjectVersion>
+    <ToolchainName>com.Atmel.ARMGCC.C</ToolchainName>
+    <ProjectGuid>dce6c7e3-ee26-4d79-826b-08594b9ad897</ProjectGuid>
+    <avrdevice>ATSAME70N19</avrdevice>
+    <avrdeviceseries>none</avrdeviceseries>
+    <OutputType>Executable</OutputType>
+    <Language>C</Language>
+    <OutputFileName>$(MSBuildProjectName)</OutputFileName>
+    <OutputFileExtension>.elf</OutputFileExtension>
+    <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
+    <AssemblyName>DAC_FIRMWARE</AssemblyName>
+    <Name>DAC_FIRMWARE</Name>
+    <RootNamespace>DAC_FIRMWARE</RootNamespace>
+    <ToolchainFlavour>Native</ToolchainFlavour>
+    <KeepTimersRunning>true</KeepTimersRunning>
+    <OverrideVtor>false</OverrideVtor>
+    <CacheFlash>true</CacheFlash>
+    <ProgFlashFromRam>true</ProgFlashFromRam>
+    <RamSnippetAddress>0x20000000</RamSnippetAddress>
+    <UncachedRange />
+    <preserveEEPROM>true</preserveEEPROM>
+    <OverrideVtorValue>exception_table</OverrideVtorValue>
+    <BootSegment>2</BootSegment>
+    <ResetRule>2</ResetRule>
+    <eraseonlaunchrule>0</eraseonlaunchrule>
+    <EraseKey />
+    <AsfFrameworkConfig>
+      <framework-data xmlns="">
+  <options />
+  <configurations />
+  <files />
+  <documentation help="" />
+  <offline-documentation help="" />
+  <dependencies>
+    <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.47.0" />
+  </dependencies>
+</framework-data>
+    </AsfFrameworkConfig>
+    <avrtool>com.atmel.avrdbg.tool.samice</avrtool>
+    <avrtoolserialnumber>260115270</avrtoolserialnumber>
+    <avrdeviceexpectedsignature>0xA10D0A00</avrdeviceexpectedsignature>
+    <com_atmel_avrdbg_tool_atmelice>
+      <ToolOptions>
+        <InterfaceProperties>
+          <SwdClock>2000000</SwdClock>
+        </InterfaceProperties>
+        <InterfaceName>SWD</InterfaceName>
+      </ToolOptions>
+      <ToolType>com.atmel.avrdbg.tool.atmelice</ToolType>
+      <ToolNumber>J41800071442</ToolNumber>
+      <ToolName>Atmel-ICE</ToolName>
+    </com_atmel_avrdbg_tool_atmelice>
+    <avrtoolinterface>SWD</avrtoolinterface>
+    <avrtoolinterfaceclock>4000000</avrtoolinterfaceclock>
+    <com_atmel_avrdbg_tool_samice>
+      <ToolOptions>
+        <InterfaceProperties>
+          <SwdClock>4000000</SwdClock>
+        </InterfaceProperties>
+        <InterfaceName>SWD</InterfaceName>
+        <JlinkConfigFile>E:\git_repos\DAC\SAME70 - Copy\DAC_FIRMWARE\DAC_FIRMWARE\jlink.config</JlinkConfigFile>
+      </ToolOptions>
+      <ToolType>com.atmel.avrdbg.tool.samice</ToolType>
+      <ToolNumber>260115270</ToolNumber>
+      <ToolName>J-Link</ToolName>
+    </com_atmel_avrdbg_tool_samice>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <ToolchainSettings>
+      <ArmGcc>
+  <armgcc.common.outputfiles.hex>True</armgcc.common.outputfiles.hex>
+  <armgcc.common.outputfiles.lss>True</armgcc.common.outputfiles.lss>
+  <armgcc.common.outputfiles.eep>True</armgcc.common.outputfiles.eep>
+  <armgcc.common.outputfiles.bin>True</armgcc.common.outputfiles.bin>
+  <armgcc.common.outputfiles.srec>True</armgcc.common.outputfiles.srec>
+  <armgcc.compiler.symbols.DefSymbols>
+    <ListValues>
+      <Value>NDEBUG</Value>
+    </ListValues>
+  </armgcc.compiler.symbols.DefSymbols>
+  <armgcc.compiler.directories.IncludePaths>
+    <ListValues>
+      <Value>%24(PackRepoDir)\arm\CMSIS\5.4.0\CMSIS\Core\Include\</Value>
+      <Value>%24(PackRepoDir)\atmel\SAME70_DFP\2.4.166\same70a\include</Value>
+    </ListValues>
+  </armgcc.compiler.directories.IncludePaths>
+  <armgcc.compiler.optimization.level>Optimize for size (-Os)</armgcc.compiler.optimization.level>
+  <armgcc.compiler.optimization.PrepareFunctionsForGarbageCollection>True</armgcc.compiler.optimization.PrepareFunctionsForGarbageCollection>
+  <armgcc.compiler.warnings.AllWarnings>True</armgcc.compiler.warnings.AllWarnings>
+  <armgcc.linker.libraries.Libraries>
+    <ListValues>
+      <Value>libm</Value>
+    </ListValues>
+  </armgcc.linker.libraries.Libraries>
+  <armgcc.linker.libraries.LibrarySearchPaths>
+    <ListValues>
+      <Value>%24(ProjectDir)\Device_Startup</Value>
+    </ListValues>
+  </armgcc.linker.libraries.LibrarySearchPaths>
+  <armgcc.linker.optimization.GarbageCollectUnusedSections>True</armgcc.linker.optimization.GarbageCollectUnusedSections>
+  <armgcc.linker.miscellaneous.LinkerFlags>-Tsame70n19_flash.ld</armgcc.linker.miscellaneous.LinkerFlags>
+  <armgcc.assembler.general.IncludePaths>
+    <ListValues>
+      <Value>%24(PackRepoDir)\arm\CMSIS\5.4.0\CMSIS\Core\Include\</Value>
+      <Value>%24(PackRepoDir)\atmel\SAME70_DFP\2.4.166\same70a\include</Value>
+    </ListValues>
+  </armgcc.assembler.general.IncludePaths>
+  <armgcc.preprocessingassembler.general.IncludePaths>
+    <ListValues>
+      <Value>%24(PackRepoDir)\arm\CMSIS\5.4.0\CMSIS\Core\Include\</Value>
+      <Value>%24(PackRepoDir)\atmel\SAME70_DFP\2.4.166\same70a\include</Value>
+    </ListValues>
+  </armgcc.preprocessingassembler.general.IncludePaths>
+</ArmGcc>
+    </ToolchainSettings>
+    <UsesExternalMakeFile>True</UsesExternalMakeFile>
+    <OutputDirectory>E:\git_repos\DAC\SAME70 - Copy\DAC_FIRMWARE\DAC_FIRMWARE\build</OutputDirectory>
+    <BuildTarget>all</BuildTarget>
+    <CleanTarget>clean</CleanTarget>
+    <ExternalMakeFilePath>E:\git_repos\DAC\SAME70 - Copy\DAC_FIRMWARE\DAC_FIRMWARE\build\Makefile</ExternalMakeFilePath>
+    <PreBuildEvent>cmake -G Unix Makefiles ..</PreBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <ToolchainSettings>
+      <ArmGcc>
+  <armgcc.common.outputfiles.hex>True</armgcc.common.outputfiles.hex>
+  <armgcc.common.outputfiles.lss>True</armgcc.common.outputfiles.lss>
+  <armgcc.common.outputfiles.eep>True</armgcc.common.outputfiles.eep>
+  <armgcc.common.outputfiles.bin>True</armgcc.common.outputfiles.bin>
+  <armgcc.common.outputfiles.srec>True</armgcc.common.outputfiles.srec>
+  <armgcc.compiler.general.ChangeDefaultCharTypeUnsigned>True</armgcc.compiler.general.ChangeDefaultCharTypeUnsigned>
+  <armgcc.compiler.general.ChangeDefaultBitFieldUnsigned>True</armgcc.compiler.general.ChangeDefaultBitFieldUnsigned>
+  <armgcc.compiler.symbols.DefSymbols>
+    <ListValues>
+      <Value>DEBUG</Value>
+      <Value>__SAME70N19__</Value>
+      <Value>DONT_USE_CMSIS_INIT</Value>
+      <Value>F_CPU=150000000</Value>
+      <Value>COMPONENT_TYPEDEF_STYLE=\'N\'</Value>
+    </ListValues>
+  </armgcc.compiler.symbols.DefSymbols>
+  <armgcc.compiler.directories.DefaultIncludePath>False</armgcc.compiler.directories.DefaultIncludePath>
+  <armgcc.compiler.directories.IncludePaths>
+    <ListValues>
+      <Value>../cmsis_include</Value>
+      <Value>../cmsis_include/component</Value>
+      <Value>../cmsis_include/instance</Value>
+      <Value>../cmsis_include/pio</Value>
+      <Value>../inc</Value>
+      <Value>../inc/usb</Value>
+    </ListValues>
+  </armgcc.compiler.directories.IncludePaths>
+  <armgcc.compiler.optimization.PrepareFunctionsForGarbageCollection>True</armgcc.compiler.optimization.PrepareFunctionsForGarbageCollection>
+  <armgcc.compiler.optimization.PrepareDataForGarbageCollection>True</armgcc.compiler.optimization.PrepareDataForGarbageCollection>
+  <armgcc.compiler.optimization.DebugLevel>Maximum (-g3)</armgcc.compiler.optimization.DebugLevel>
+  <armgcc.compiler.warnings.AllWarnings>True</armgcc.compiler.warnings.AllWarnings>
+  <armgcc.compiler.miscellaneous.OtherFlags />
+  <armgcc.linker.general.DoNotUseStandardStartFiles>True</armgcc.linker.general.DoNotUseStandardStartFiles>
+  <armgcc.linker.general.DoNotUseDefaultLibraries>True</armgcc.linker.general.DoNotUseDefaultLibraries>
+  <armgcc.linker.general.NoStartupOrDefaultLibs>True</armgcc.linker.general.NoStartupOrDefaultLibs>
+  <armgcc.linker.optimization.GarbageCollectUnusedSections>True</armgcc.linker.optimization.GarbageCollectUnusedSections>
+  <armgcc.linker.memorysettings.ExternalRAM />
+  <armgcc.linker.miscellaneous.LinkerFlags>-T../same70n19.ld</armgcc.linker.miscellaneous.LinkerFlags>
+  <armgcc.assembler.debugging.DebugLevel>Default (-g)</armgcc.assembler.debugging.DebugLevel>
+  <armgcc.preprocessingassembler.debugging.DebugLevel>Default (-Wa,-g)</armgcc.preprocessingassembler.debugging.DebugLevel>
+</ArmGcc>
+    </ToolchainSettings>
+    <UsesExternalMakeFile>False</UsesExternalMakeFile>
+    <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
+    <BuildTarget>all</BuildTarget>
+    <CleanTarget>clean</CleanTarget>
+    <ExternalMakeFilePath>E:\git_repos\DAC\SAME70 - Copy\DAC_FIRMWARE\DAC_FIRMWARE\build\Makefile</ExternalMakeFilePath>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="cmsis_include\" />
+    <Folder Include="cmsis_include\component\" />
+    <Folder Include="cmsis_include\instance\" />
+    <Folder Include="cmsis_include\pio\" />
+    <Folder Include="inc\" />
+    <Folder Include="inc\usb\" />
+    <Folder Include="openocd\" />
+    <Folder Include="openocd\board\" />
+    <Folder Include="openocd\interface\" />
+    <Folder Include="src\" />
+    <Folder Include="src\usb\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="cmsis_include\component\acc.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\component\aes.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\component\afec.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\component\chipid.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\component\dacc.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\component\efc.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\component\gmac.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\component\gpbr.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\component\hsmci.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\component\icm.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\component\isi.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\component\matrix.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\component\mcan.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\component\pio.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\component\pmc.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\component\pwm.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\component\qspi.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\component\rstc.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\component\rswdt.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\component\rtc.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\component\rtt.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\component\sdramc.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\component\smc.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\component\spi.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\component\ssc.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\component\supc.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\component\tc.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\component\trng.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\component\twihs.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\component\uart.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\component\usart.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\component\usbhs.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\component\utmi.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\component\wdt.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\component\xdmac.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\core_cm7.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\core_cmFunc.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\core_cmInstr.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\core_cmSimd.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\acc.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\aes.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\afec0.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\afec1.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\chipid.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\dacc.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\efc.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\gmac.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\gpbr.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\hsmci.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\icm.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\isi.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\matrix.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\mcan0.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\mcan1.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\pioa.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\piob.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\pioc.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\piod.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\pioe.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\pmc.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\pwm0.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\pwm1.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\qspi.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\rstc.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\rswdt.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\rtc.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\rtt.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\sdramc.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\smc.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\spi0.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\spi1.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\ssc.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\supc.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\tc0.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\tc1.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\tc2.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\tc3.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\trng.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\twihs0.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\twihs1.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\twihs2.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\uart0.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\uart1.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\uart2.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\uart3.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\uart4.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\usart0.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\usart1.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\usart2.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\usbhs.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\utmi.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\wdt.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\instance\xdmac.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\pio\same70j19.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\pio\same70j20.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\pio\same70j21.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\pio\same70n19.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\pio\same70n20.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\pio\same70n21.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\pio\same70q19.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\pio\same70q20.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\pio\same70q21.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\same70.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\same70j19.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\same70j20.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\same70j21.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\same70n19.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\same70n20.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\same70n21.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\same70q19.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\same70q20.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="cmsis_include\same70q21.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="inc\debug_uart.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="inc\hal_gpio.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="inc\std_inc.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="inc\timers.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="inc\usb\usb_aud_ctr.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="inc\usb\usb_core.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="inc\usb\usb_defs.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="inc\usb\usb_desc.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="inc\usb\usb_iso.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="inc\usb\usb_types.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="inc\usb_mem.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\debug_uart.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\main.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\startup_same70.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\timers.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\usb\usb_aud_ctr.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\usb\usb_core.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\usb\usb_desc.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\usb\usb_iso.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\usb_mem.c">
+      <SubType>compile</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="arm-none-eabi-gcc.cmake">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="ATSAME70N19.svd">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="ATSAME70Q21.svd">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="CMakeLists.txt">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="DAC_FIRMWARE.componentinfo.xml">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="openocd\board\atmel_same70_xplained.cfg">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="openocd\interface\cmsis-dap.cfg">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="same70n19.ld">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="USB_AUDIO.code-workspace">
+      <SubType>compile</SubType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(AVRSTUDIO_EXE_PATH)\\Vs\\Compiler.targets" />
+</Project>

@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "C:\\Users\\Brandon\\Downloads\\lpc2368_usbaudio\\USBAudio"
+		},
+		{
+			"path": "..\\..\\..\\Teensy3-USBAudio-master\\software"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.ld": "mapfile",
+			"same70.h": "c",
+			"hal_gpio.h": "c",
+			"same70q21.h": "c",
+			"usbhs.h": "c",
+			"pmc.h": "c",
+			"usb_desc.h": "c"
+		}
+	}
+}

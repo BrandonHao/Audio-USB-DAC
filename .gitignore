@@ -1,1 +1,8 @@
-FPGA/
+**.zip
+
+**/build
+**.o
+
+**/__Previews
+**/Project Logs*
+**/Project Outputs*

@@ -1,0 +1,11 @@
+===================================
+Configuration Memory information
+===================================
+File Format        MCS
+Interface          SPIX1
+Size               16M
+Start Address      0x00000000
+End Address        0x00FFFFFF
+
+Addr1         Addr2         Date                    File(s)
+0x00000000    0x001FCB9B    Dec  5 13:51:44 2019    B:/Design/cores/xilinx/2018.3/design/TE0726/test_board/vivado/test_board.runs/impl_1/fsys_wrapper.bit
