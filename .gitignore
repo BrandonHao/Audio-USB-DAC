@@ -3,6 +3,10 @@
 **/build
 **.o
 
+STM_FW/Debug
+STM_FW/Release
+
+
 **/__Previews
 **/Project Logs*
 **/Project Outputs*
