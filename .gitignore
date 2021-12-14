@@ -2,9 +2,12 @@
 
 **/build
 **.o
+**.bin
+**.elf
+**.out
 
-STM_FW/Debug
-STM_FW/Release
+**/Debug
+**/Release
 
 
 **/__Previews

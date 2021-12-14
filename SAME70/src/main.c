@@ -31,7 +31,6 @@ static void sys_init(void) {
     // Set flash wait states to maximum for 150 MHz operation
     EFC->EEFC_FMR.reg = EEFC_FMR_FWS(6) | EEFC_FMR_CLOE;
 
-    PMC->CKGR_MOR.reg = PMC->CKGR_MOR.reg & ~CKGR_MOR_MOSCXTBY;
     // Enable 12 MHz Xtal
     PMC->CKGR_MOR.reg |= CKGR_MOR_KEY_PASSWD | CKGR_MOR_MOSCXTST(20) | CKGR_MOR_MOSCXTEN;
     while (!PMC->PMC_SR.bit.MOSCXTS);
@@ -71,11 +70,8 @@ static void NVIC_Initialize(void)
 //-----------------------------------------------------------------------------
 int main(void) {
     //full_reset();
-    /* Enable NVIC Controller */
-    __DMB();
-    __disable_irq();
-    sys_init();
     NVIC_Initialize();
+    sys_init();
     uart_init();
     uint8_t temp[3] = "abc";
     uart_write(temp, 3);
