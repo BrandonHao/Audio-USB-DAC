@@ -1,6 +1,3 @@
-/.vscode/
-/build/
-
 CMakeFiles/
 bin/
 .settings/
@@ -9,4 +6,5 @@ bin/
 *.bin
 *.hex
 *.elf
-CMakeCache
+CMakeCache.txt
+.settings/
