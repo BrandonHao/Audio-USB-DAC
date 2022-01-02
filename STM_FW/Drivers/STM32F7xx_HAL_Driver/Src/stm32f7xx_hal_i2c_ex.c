@@ -5,8 +5,20 @@
   * @brief   I2C Extended HAL module driver.
   *          This file provides firmware functions to manage the following
   *          functionalities of I2C Extended peripheral:
-  *           + Extended features functions
+  *           + Filter Mode Functions
+  *           + FastModePlus Functions
   *
+  ******************************************************************************
+  * @attention
+  *
+  * Copyright (c) 2017 STMicroelectronics.
+  * All rights reserved.
+  *
+  * This software is licensed under terms that can be found in the LICENSE file
+  * in the root directory of this software component.
+  * If no LICENSE file comes with this software, it is provided AS-IS.
+  *
+  ******************************************************************************
   @verbatim
   ==============================================================================
                ##### I2C peripheral Extended features  #####
@@ -28,18 +40,6 @@
           (++) HAL_I2CEx_EnableFastModePlus()
           (++) HAL_I2CEx_DisableFastModePlus()
   @endverbatim
-  ******************************************************************************
-  * @attention
-  *
-  * <h2><center>&copy; Copyright (c) 2017 STMicroelectronics.
-  * All rights reserved.</center></h2>
-  *
-  * This software component is licensed by ST under BSD 3-Clause license,
-  * the "License"; You may not use this file except in compliance with the
-  * License. You may obtain a copy of the License at:
-  *                        opensource.org/licenses/BSD-3-Clause
-  *
-  ******************************************************************************
   */
 
 /* Includes ------------------------------------------------------------------*/
@@ -67,16 +67,15 @@
   * @{
   */
 
-/** @defgroup I2CEx_Exported_Functions_Group1 Extended features functions
-  * @brief    Extended features functions
+/** @defgroup I2CEx_Exported_Functions_Group1 Filter Mode Functions
+  * @brief    Filter Mode Functions
   *
 @verbatim
  ===============================================================================
-                      ##### Extended features functions #####
+                      ##### Filter Mode Functions #####
  ===============================================================================
     [..] This section provides functions allowing to:
       (+) Configure Noise Filters
-      (+) Configure Fast Mode Plus
 
 @endverbatim
   * @{
@@ -89,41 +88,31 @@
   * @param  AnalogFilter New state of the Analog filter.
   * @retval HAL status
   */
-HAL_StatusTypeDef HAL_I2CEx_ConfigAnalogFilter(I2C_HandleTypeDef *hi2c, uint32_t AnalogFilter)
-{
-  /* Check the parameters */
-  assert_param(IS_I2C_ALL_INSTANCE(hi2c->Instance));
-  assert_param(IS_I2C_ANALOG_FILTER(AnalogFilter));
+HAL_StatusTypeDef HAL_I2CEx_ConfigAnalogFilter(I2C_HandleTypeDef *hi2c,
+        uint32_t AnalogFilter) {
+    /* Check the parameters */
+    assert_param(IS_I2C_ALL_INSTANCE(hi2c->Instance));
+    assert_param(IS_I2C_ANALOG_FILTER(AnalogFilter));
 
-  if (hi2c->State == HAL_I2C_STATE_READY)
-  {
-    /* Process Locked */
-    __HAL_LOCK(hi2c);
-
-    hi2c->State = HAL_I2C_STATE_BUSY;
-
-    /* Disable the selected I2C peripheral */
-    __HAL_I2C_DISABLE(hi2c);
-
-    /* Reset I2Cx ANOFF bit */
-    hi2c->Instance->CR1 &= ~(I2C_CR1_ANFOFF);
-
-    /* Set analog filter bit*/
-    hi2c->Instance->CR1 |= AnalogFilter;
-
-    __HAL_I2C_ENABLE(hi2c);
-
-    hi2c->State = HAL_I2C_STATE_READY;
-
-    /* Process Unlocked */
-    __HAL_UNLOCK(hi2c);
-
-    return HAL_OK;
-  }
-  else
-  {
-    return HAL_BUSY;
-  }
+    if(hi2c->State == HAL_I2C_STATE_READY) {
+        /* Process Locked */
+        __HAL_LOCK(hi2c);
+        hi2c->State = HAL_I2C_STATE_BUSY;
+        /* Disable the selected I2C peripheral */
+        __HAL_I2C_DISABLE(hi2c);
+        /* Reset I2Cx ANOFF bit */
+        hi2c->Instance->CR1 &= ~(I2C_CR1_ANFOFF);
+        /* Set analog filter bit*/
+        hi2c->Instance->CR1 |= AnalogFilter;
+        __HAL_I2C_ENABLE(hi2c);
+        hi2c->State = HAL_I2C_STATE_READY;
+        /* Process Unlocked */
+        __HAL_UNLOCK(hi2c);
+        return HAL_OK;
+    }
+    else {
+        return HAL_BUSY;
+    }
 }
 
 /**
@@ -133,52 +122,56 @@ HAL_StatusTypeDef HAL_I2CEx_ConfigAnalogFilter(I2C_HandleTypeDef *hi2c, uint32_t
   * @param  DigitalFilter Coefficient of digital noise filter between Min_Data=0x00 and Max_Data=0x0F.
   * @retval HAL status
   */
-HAL_StatusTypeDef HAL_I2CEx_ConfigDigitalFilter(I2C_HandleTypeDef *hi2c, uint32_t DigitalFilter)
-{
-  uint32_t tmpreg;
+HAL_StatusTypeDef HAL_I2CEx_ConfigDigitalFilter(I2C_HandleTypeDef *hi2c,
+        uint32_t DigitalFilter) {
+    uint32_t tmpreg;
+    /* Check the parameters */
+    assert_param(IS_I2C_ALL_INSTANCE(hi2c->Instance));
+    assert_param(IS_I2C_DIGITAL_FILTER(DigitalFilter));
 
-  /* Check the parameters */
-  assert_param(IS_I2C_ALL_INSTANCE(hi2c->Instance));
-  assert_param(IS_I2C_DIGITAL_FILTER(DigitalFilter));
-
-  if (hi2c->State == HAL_I2C_STATE_READY)
-  {
-    /* Process Locked */
-    __HAL_LOCK(hi2c);
-
-    hi2c->State = HAL_I2C_STATE_BUSY;
-
-    /* Disable the selected I2C peripheral */
-    __HAL_I2C_DISABLE(hi2c);
-
-    /* Get the old register value */
-    tmpreg = hi2c->Instance->CR1;
-
-    /* Reset I2Cx DNF bits [11:8] */
-    tmpreg &= ~(I2C_CR1_DNF);
-
-    /* Set I2Cx DNF coefficient */
-    tmpreg |= DigitalFilter << 8U;
-
-    /* Store the new register value */
-    hi2c->Instance->CR1 = tmpreg;
-
-    __HAL_I2C_ENABLE(hi2c);
-
-    hi2c->State = HAL_I2C_STATE_READY;
-
-    /* Process Unlocked */
-    __HAL_UNLOCK(hi2c);
-
-    return HAL_OK;
-  }
-  else
-  {
-    return HAL_BUSY;
-  }
+    if(hi2c->State == HAL_I2C_STATE_READY) {
+        /* Process Locked */
+        __HAL_LOCK(hi2c);
+        hi2c->State = HAL_I2C_STATE_BUSY;
+        /* Disable the selected I2C peripheral */
+        __HAL_I2C_DISABLE(hi2c);
+        /* Get the old register value */
+        tmpreg = hi2c->Instance->CR1;
+        /* Reset I2Cx DNF bits [11:8] */
+        tmpreg &= ~(I2C_CR1_DNF);
+        /* Set I2Cx DNF coefficient */
+        tmpreg |= DigitalFilter << 8U;
+        /* Store the new register value */
+        hi2c->Instance->CR1 = tmpreg;
+        __HAL_I2C_ENABLE(hi2c);
+        hi2c->State = HAL_I2C_STATE_READY;
+        /* Process Unlocked */
+        __HAL_UNLOCK(hi2c);
+        return HAL_OK;
+    }
+    else {
+        return HAL_BUSY;
+    }
 }
-
+/**
+  * @}
+  */
 #if  (defined(SYSCFG_PMC_I2C_PB6_FMP) || defined(SYSCFG_PMC_I2C_PB7_FMP)) || (defined(SYSCFG_PMC_I2C_PB8_FMP) || defined(SYSCFG_PMC_I2C_PB9_FMP)) || (defined(SYSCFG_PMC_I2C1_FMP)) || (defined(SYSCFG_PMC_I2C2_FMP)) || defined(SYSCFG_PMC_I2C3_FMP) || defined(SYSCFG_PMC_I2C4_FMP)
+
+/** @defgroup I2CEx_Exported_Functions_Group3 Fast Mode Plus Functions
+  * @brief    Fast Mode Plus Functions
+  *
+@verbatim
+ ===============================================================================
+                      ##### Fast Mode Plus Functions #####
+ ===============================================================================
+    [..] This section provides functions allowing to:
+      (+) Configure Fast Mode Plus
+
+@endverbatim
+  * @{
+  */
+
 /**
   * @brief Enable the I2C fast mode plus driving capability.
   * @param ConfigFastModePlus Selects the pin.
@@ -196,16 +189,13 @@ HAL_StatusTypeDef HAL_I2CEx_ConfigDigitalFilter(I2C_HandleTypeDef *hi2c, uint32_
   *        only by using I2C_FASTMODEPLUS_I2C4 parameter.
   * @retval None
   */
-void HAL_I2CEx_EnableFastModePlus(uint32_t ConfigFastModePlus)
-{
-  /* Check the parameter */
-  assert_param(IS_I2C_FASTMODEPLUS(ConfigFastModePlus));
-
-  /* Enable SYSCFG clock */
-  __HAL_RCC_SYSCFG_CLK_ENABLE();
-
-  /* Enable fast mode plus driving capability for selected pin */
-  SET_BIT(SYSCFG->PMC, (uint32_t)ConfigFastModePlus);
+void HAL_I2CEx_EnableFastModePlus(uint32_t ConfigFastModePlus) {
+    /* Check the parameter */
+    assert_param(IS_I2C_FASTMODEPLUS(ConfigFastModePlus));
+    /* Enable SYSCFG clock */
+    __HAL_RCC_SYSCFG_CLK_ENABLE();
+    /* Enable fast mode plus driving capability for selected pin */
+    SET_BIT(SYSCFG->PMC, (uint32_t)ConfigFastModePlus);
 }
 
 /**
@@ -225,23 +215,18 @@ void HAL_I2CEx_EnableFastModePlus(uint32_t ConfigFastModePlus)
   *        only by using I2C_FASTMODEPLUS_I2C4 parameter.
   * @retval None
   */
-void HAL_I2CEx_DisableFastModePlus(uint32_t ConfigFastModePlus)
-{
-  /* Check the parameter */
-  assert_param(IS_I2C_FASTMODEPLUS(ConfigFastModePlus));
-
-  /* Enable SYSCFG clock */
-  __HAL_RCC_SYSCFG_CLK_ENABLE();
-
-  /* Disable fast mode plus driving capability for selected pin */
-  CLEAR_BIT(SYSCFG->PMC, (uint32_t)ConfigFastModePlus);
+void HAL_I2CEx_DisableFastModePlus(uint32_t ConfigFastModePlus) {
+    /* Check the parameter */
+    assert_param(IS_I2C_FASTMODEPLUS(ConfigFastModePlus));
+    /* Enable SYSCFG clock */
+    __HAL_RCC_SYSCFG_CLK_ENABLE();
+    /* Disable fast mode plus driving capability for selected pin */
+    CLEAR_BIT(SYSCFG->PMC, (uint32_t)ConfigFastModePlus);
 }
-
-#endif
 /**
   * @}
   */
-
+#endif /* Fast Mode Plus Availability */
 /**
   * @}
   */
@@ -254,5 +239,3 @@ void HAL_I2CEx_DisableFastModePlus(uint32_t ConfigFastModePlus)
 /**
   * @}
   */
-
-/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

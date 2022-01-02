@@ -1,15 +1,5 @@
 **.zip
 
-**/build
-**.o
-**.bin
-**.elf
-**.out
-
-**/Debug
-**/Release
-
-
 **/__Previews
 **/Project Logs*
 **/Project Outputs*

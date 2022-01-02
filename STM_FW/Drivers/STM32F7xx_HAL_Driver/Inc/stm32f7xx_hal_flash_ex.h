@@ -6,14 +6,12 @@
   ******************************************************************************
   * @attention
   *
-  * <h2><center>&copy; Copyright (c) 2017 STMicroelectronics.
-  * All rights reserved.</center></h2>
+  * Copyright (c) 2017 STMicroelectronics.
+  * All rights reserved.
   *
-  * This software component is licensed by ST under BSD 3-Clause license,
-  * the "License"; You may not use this file except in compliance with the
-  * License. You may obtain a copy of the License at:
-  *                        opensource.org/licenses/BSD-3-Clause
-  *
+  * This software is licensed under terms that can be found in the LICENSE file in
+  * the root directory of this software component.
+  * If no LICENSE file comes with this software, it is provided AS-IS.
   ******************************************************************************
   */
 
@@ -22,7 +20,7 @@
 #define __STM32F7xx_HAL_FLASH_EX_H
 
 #ifdef __cplusplus
- extern "C" {
+extern "C" {
 #endif
 
 /* Includes ------------------------------------------------------------------*/
@@ -44,23 +42,22 @@
 /**
   * @brief  FLASH Erase structure definition
   */
-typedef struct
-{
-  uint32_t TypeErase;   /*!< Mass erase or sector Erase.
+typedef struct {
+    uint32_t TypeErase;   /*!< Mass erase or sector Erase.
                              This parameter can be a value of @ref FLASHEx_Type_Erase */
 
 #if defined (FLASH_OPTCR_nDBANK)
-  uint32_t Banks;       /*!< Select banks to erase when Mass erase is enabled.
+    uint32_t Banks;       /*!< Select banks to erase when Mass erase is enabled.
                              This parameter must be a value of @ref FLASHEx_Banks */
 #endif /* FLASH_OPTCR_nDBANK */
 
-  uint32_t Sector;      /*!< Initial FLASH sector to erase when Mass erase is disabled
+    uint32_t Sector;      /*!< Initial FLASH sector to erase when Mass erase is disabled
                              This parameter must be a value of @ref FLASHEx_Sectors */
 
-  uint32_t NbSectors;   /*!< Number of sectors to be erased.
+    uint32_t NbSectors;   /*!< Number of sectors to be erased.
                              This parameter must be a value between 1 and (max number of sectors - value of Initial sector)*/
 
-  uint32_t VoltageRange;/*!< The device voltage range which defines the erase parallelism
+    uint32_t VoltageRange;/*!< The device voltage range which defines the erase parallelism
                              This parameter must be a value of @ref FLASHEx_Voltage_Range */
 
 } FLASH_EraseInitTypeDef;
@@ -68,38 +65,37 @@ typedef struct
 /**
   * @brief  FLASH Option Bytes Program structure definition
   */
-typedef struct
-{
-  uint32_t OptionType;   /*!< Option byte to be configured.
+typedef struct {
+    uint32_t OptionType;   /*!< Option byte to be configured.
                               This parameter can be a value of @ref FLASHEx_Option_Type */
 
-  uint32_t WRPState;     /*!< Write protection activation or deactivation.
+    uint32_t WRPState;     /*!< Write protection activation or deactivation.
                               This parameter can be a value of @ref FLASHEx_WRP_State */
 
-  uint32_t WRPSector;    /*!< Specifies the sector(s) to be write protected.
+    uint32_t WRPSector;    /*!< Specifies the sector(s) to be write protected.
                               The value of this parameter depend on device used within the same series */
 
-  uint32_t RDPLevel;     /*!< Set the read protection level.
+    uint32_t RDPLevel;     /*!< Set the read protection level.
                               This parameter can be a value of @ref FLASHEx_Option_Bytes_Read_Protection */
 
-  uint32_t BORLevel;     /*!< Set the BOR Level.
+    uint32_t BORLevel;     /*!< Set the BOR Level.
                               This parameter can be a value of @ref FLASHEx_BOR_Reset_Level */
 
-  uint32_t USERConfig;   /*!< Program the FLASH User Option Byte: WWDG_SW / IWDG_SW / RST_STOP / RST_STDBY /
+    uint32_t USERConfig;   /*!< Program the FLASH User Option Byte: WWDG_SW / IWDG_SW / RST_STOP / RST_STDBY /
                               IWDG_FREEZE_STOP / IWDG_FREEZE_SANDBY / nDBANK / nDBOOT.
                               nDBANK / nDBOOT are only available for STM32F76xxx/STM32F77xxx devices */
 
-  uint32_t BootAddr0;    /*!< Boot base address when Boot pin = 0.
+    uint32_t BootAddr0;    /*!< Boot base address when Boot pin = 0.
                               This parameter can be a value of @ref FLASHEx_Boot_Address */
 
-  uint32_t BootAddr1;    /*!< Boot base address when Boot pin = 1.
+    uint32_t BootAddr1;    /*!< Boot base address when Boot pin = 1.
                               This parameter can be a value of @ref FLASHEx_Boot_Address */
 
 #if defined (FLASH_OPTCR2_PCROP)
-  uint32_t PCROPSector;  /*!< Set the PCROP sector.
+    uint32_t PCROPSector;  /*!< Set the PCROP sector.
                               This parameter can be a value of @ref FLASHEx_Option_Bytes_PCROP_Sectors */
 
-  uint32_t PCROPRdp;    /*!< Set the PCROP_RDP option.
+    uint32_t PCROPRdp;    /*!< Set the PCROP_RDP option.
                               This parameter can be a value of @ref FLASHEx_Option_Bytes_PCROP_RDP */
 #endif /* FLASH_OPTCR2_PCROP */
 
@@ -508,9 +504,9 @@ typedef struct
   * @retval The FLASH Boot Base Address
   */
 #define __HAL_FLASH_CALC_BOOT_BASE_ADR(__ADDRESS__) ((__ADDRESS__) >> 14)
- /**
-  * @}
-  */
+/**
+ * @}
+ */
 
 /* Exported functions --------------------------------------------------------*/
 /** @addtogroup FLASHEx_Exported_Functions
@@ -521,7 +517,8 @@ typedef struct
   * @{
   */
 /* Extension Program operation functions  *************************************/
-HAL_StatusTypeDef HAL_FLASHEx_Erase(FLASH_EraseInitTypeDef *pEraseInit, uint32_t *SectorError);
+HAL_StatusTypeDef HAL_FLASHEx_Erase(FLASH_EraseInitTypeDef *pEraseInit,
+                                    uint32_t *SectorError);
 HAL_StatusTypeDef HAL_FLASHEx_Erase_IT(FLASH_EraseInitTypeDef *pEraseInit);
 HAL_StatusTypeDef HAL_FLASHEx_OBProgram(FLASH_OBProgramInitTypeDef *pOBInit);
 void              HAL_FLASHEx_OBGetConfig(FLASH_OBProgramInitTypeDef *pOBInit);
@@ -558,11 +555,11 @@ void              HAL_FLASHEx_OBGetConfig(FLASH_OBProgramInitTypeDef *pOBInit);
 
 #if defined (FLASH_OPTCR2_PCROP)
 #define IS_OPTIONBYTE(VALUE)(((VALUE) <= (OPTIONBYTE_WRP | OPTIONBYTE_RDP        | OPTIONBYTE_USER |\
-                                          OPTIONBYTE_BOR | OPTIONBYTE_BOOTADDR_0 | OPTIONBYTE_BOOTADDR_1 |\
-                                          OPTIONBYTE_PCROP | OPTIONBYTE_PCROP_RDP)))
+                              OPTIONBYTE_BOR | OPTIONBYTE_BOOTADDR_0 | OPTIONBYTE_BOOTADDR_1 |\
+                              OPTIONBYTE_PCROP | OPTIONBYTE_PCROP_RDP)))
 #else
 #define IS_OPTIONBYTE(VALUE)(((VALUE) <= (OPTIONBYTE_WRP | OPTIONBYTE_RDP        | OPTIONBYTE_USER |\
-                                          OPTIONBYTE_BOR | OPTIONBYTE_BOOTADDR_0 | OPTIONBYTE_BOOTADDR_1)))
+                              OPTIONBYTE_BOR | OPTIONBYTE_BOOTADDR_0 | OPTIONBYTE_BOOTADDR_1)))
 #endif /* FLASH_OPTCR2_PCROP */
 
 #define IS_OB_BOOT_ADDRESS(ADDRESS) ((ADDRESS) <= 0x8013)
@@ -697,4 +694,3 @@ void FLASH_Erase_Sector(uint32_t Sector, uint8_t VoltageRange);
 
 #endif /* __STM32F7xx_HAL_FLASH_EX_H */
 
-/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

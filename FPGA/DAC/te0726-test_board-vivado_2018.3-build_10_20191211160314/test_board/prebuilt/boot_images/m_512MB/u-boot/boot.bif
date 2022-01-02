@@ -1,6 +1,0 @@
-the_ROM_image:
-{
-    [bootloader]../../../software/m_512MB/zynq_fsbl.elf
-    ../../../hardware/m_512MB/test_board.bit
-    ../../../os/petalinux/512MB/u-boot.elf
-}

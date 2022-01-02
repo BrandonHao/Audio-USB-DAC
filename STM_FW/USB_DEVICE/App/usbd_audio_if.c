@@ -16,7 +16,7 @@
   *
   ******************************************************************************
   */
- /* USER CODE END Header */
+/* USER CODE END Header */
 
 /* Includes ------------------------------------------------------------------*/
 #include "usbd_audio_if.h"
@@ -115,9 +115,10 @@ extern USBD_HandleTypeDef hUsbDeviceHS;
   * @{
   */
 
-static int8_t AUDIO_Init_HS(uint32_t AudioFreq, uint32_t Volume, uint32_t options);
+static int8_t AUDIO_Init_HS(uint32_t AudioFreq, uint32_t Volume,
+                            uint32_t options);
 static int8_t AUDIO_DeInit_HS(uint32_t options);
-static int8_t AUDIO_AudioCmd_HS(uint8_t* pbuf, uint32_t size, uint8_t cmd);
+static int8_t AUDIO_AudioCmd_HS(uint8_t *pbuf, uint32_t size, uint8_t cmd);
 static int8_t AUDIO_VolumeCtl_HS(uint8_t vol);
 static int8_t AUDIO_MuteCtl_HS(uint8_t cmd);
 static int8_t AUDIO_PeriodicTC_HS(uint8_t *pbuf, uint32_t size, uint8_t cmd);
@@ -131,15 +132,14 @@ static int8_t AUDIO_GetState_HS(void);
   * @}
   */
 
-USBD_AUDIO_ItfTypeDef USBD_AUDIO_fops_HS =
-{
-  AUDIO_Init_HS,
-  AUDIO_DeInit_HS,
-  AUDIO_AudioCmd_HS,
-  AUDIO_VolumeCtl_HS,
-  AUDIO_MuteCtl_HS,
-  AUDIO_PeriodicTC_HS,
-  AUDIO_GetState_HS,
+USBD_AUDIO_ItfTypeDef USBD_AUDIO_fops_HS = {
+    AUDIO_Init_HS,
+    AUDIO_DeInit_HS,
+    AUDIO_AudioCmd_HS,
+    AUDIO_VolumeCtl_HS,
+    AUDIO_MuteCtl_HS,
+    AUDIO_PeriodicTC_HS,
+    AUDIO_GetState_HS,
 };
 
 /* Private functions ---------------------------------------------------------*/
@@ -150,14 +150,14 @@ USBD_AUDIO_ItfTypeDef USBD_AUDIO_fops_HS =
   * @param  options: Reserved for future use
   * @retval USBD_OK if all operations are OK else USBD_FAIL
   */
-static int8_t AUDIO_Init_HS(uint32_t AudioFreq, uint32_t Volume, uint32_t options)
-{
-  /* USER CODE BEGIN 9 */
-  UNUSED(AudioFreq);
-  UNUSED(Volume);
-  UNUSED(options);
-  return (USBD_OK);
-  /* USER CODE END 9 */
+static int8_t AUDIO_Init_HS(uint32_t AudioFreq, uint32_t Volume,
+                            uint32_t options) {
+    /* USER CODE BEGIN 9 */
+    UNUSED(AudioFreq);
+    UNUSED(Volume);
+    UNUSED(options);
+    return (USBD_OK);
+    /* USER CODE END 9 */
 }
 
 /**
@@ -165,12 +165,11 @@ static int8_t AUDIO_Init_HS(uint32_t AudioFreq, uint32_t Volume, uint32_t option
   * @param  options: Reserved for future use
   * @retval USBD_OK if all operations are OK else USBD_FAIL
   */
-static int8_t AUDIO_DeInit_HS(uint32_t options)
-{
-  /* USER CODE BEGIN 10 */
-  UNUSED(options);
-  return (USBD_OK);
-  /* USER CODE END 10 */
+static int8_t AUDIO_DeInit_HS(uint32_t options) {
+    /* USER CODE BEGIN 10 */
+    UNUSED(options);
+    return (USBD_OK);
+    /* USER CODE END 10 */
 }
 
 /**
@@ -180,22 +179,21 @@ static int8_t AUDIO_DeInit_HS(uint32_t options)
   * @param  cmd: Command opcode
   * @retval USBD_OK if all operations are OK else USBD_FAIL
   */
-static int8_t AUDIO_AudioCmd_HS(uint8_t* pbuf, uint32_t size, uint8_t cmd)
-{
-  /* USER CODE BEGIN 11 */
-  switch(cmd)
-  {
-    case AUDIO_CMD_START:
-    break;
+static int8_t AUDIO_AudioCmd_HS(uint8_t *pbuf, uint32_t size, uint8_t cmd) {
+    /* USER CODE BEGIN 11 */
+    switch(cmd) {
+        case AUDIO_CMD_START:
+            break;
 
-    case AUDIO_CMD_PLAY:
-    break;
-  }
-  UNUSED(pbuf);
-  UNUSED(size);
-  UNUSED(cmd);
-  return (USBD_OK);
-  /* USER CODE END 11 */
+        case AUDIO_CMD_PLAY:
+            break;
+    }
+
+    UNUSED(pbuf);
+    UNUSED(size);
+    UNUSED(cmd);
+    return (USBD_OK);
+    /* USER CODE END 11 */
 }
 
 /**
@@ -203,12 +201,11 @@ static int8_t AUDIO_AudioCmd_HS(uint8_t* pbuf, uint32_t size, uint8_t cmd)
   * @param  vol: volume level (0..100)
   * @retval USBD_OK if all operations are OK else USBD_FAIL
   */
-static int8_t AUDIO_VolumeCtl_HS(uint8_t vol)
-{
-  /* USER CODE BEGIN 12 */
-  UNUSED(vol);
-  return (USBD_OK);
-  /* USER CODE END 12 */
+static int8_t AUDIO_VolumeCtl_HS(uint8_t vol) {
+    /* USER CODE BEGIN 12 */
+    UNUSED(vol);
+    return (USBD_OK);
+    /* USER CODE END 12 */
 }
 
 /**
@@ -216,12 +213,11 @@ static int8_t AUDIO_VolumeCtl_HS(uint8_t vol)
   * @param  cmd: command opcode
   * @retval USBD_OK if all operations are OK else USBD_FAIL
   */
-static int8_t AUDIO_MuteCtl_HS(uint8_t cmd)
-{
-  /* USER CODE BEGIN 13 */
-  UNUSED(cmd);
-  return (USBD_OK);
-  /* USER CODE END 13 */
+static int8_t AUDIO_MuteCtl_HS(uint8_t cmd) {
+    /* USER CODE BEGIN 13 */
+    UNUSED(cmd);
+    return (USBD_OK);
+    /* USER CODE END 13 */
 }
 
 /**
@@ -229,47 +225,43 @@ static int8_t AUDIO_MuteCtl_HS(uint8_t cmd)
   * @param  cmd: command opcode
   * @retval USBD_OK if all operations are OK else USBD_FAIL
   */
-static int8_t AUDIO_PeriodicTC_HS(uint8_t *pbuf, uint32_t size, uint8_t cmd)
-{
-  /* USER CODE BEGIN 14 */
-  UNUSED(pbuf);
-  UNUSED(size);
-  UNUSED(cmd);
-  return (USBD_OK);
-  /* USER CODE END 14 */
+static int8_t AUDIO_PeriodicTC_HS(uint8_t *pbuf, uint32_t size, uint8_t cmd) {
+    /* USER CODE BEGIN 14 */
+    UNUSED(pbuf);
+    UNUSED(size);
+    UNUSED(cmd);
+    return (USBD_OK);
+    /* USER CODE END 14 */
 }
 
 /**
   * @brief  Gets AUDIO state.
   * @retval USBD_OK if all operations are OK else USBD_FAIL
   */
-static int8_t AUDIO_GetState_HS(void)
-{
-  /* USER CODE BEGIN 15 */
-  return (USBD_OK);
-  /* USER CODE END 15 */
+static int8_t AUDIO_GetState_HS(void) {
+    /* USER CODE BEGIN 15 */
+    return (USBD_OK);
+    /* USER CODE END 15 */
 }
 
 /**
   * @brief  Manages the DMA full transfer complete event.
   * @retval None
   */
-void TransferComplete_CallBack_HS(void)
-{
-  /* USER CODE BEGIN 16 */
-  USBD_AUDIO_Sync(&hUsbDeviceHS, AUDIO_OFFSET_FULL);
-  /* USER CODE END 16 */
+void TransferComplete_CallBack_HS(void) {
+    /* USER CODE BEGIN 16 */
+    USBD_AUDIO_Sync(&hUsbDeviceHS, AUDIO_OFFSET_FULL);
+    /* USER CODE END 16 */
 }
 
 /**
   * @brief  Manages the DMA Half transfer complete event.
   * @retval None
   */
-void HalfTransfer_CallBack_HS(void)
-{
-  /* USER CODE BEGIN 17 */
-  USBD_AUDIO_Sync(&hUsbDeviceHS, AUDIO_OFFSET_HALF);
-  /* USER CODE END 17 */
+void HalfTransfer_CallBack_HS(void) {
+    /* USER CODE BEGIN 17 */
+    USBD_AUDIO_Sync(&hUsbDeviceHS, AUDIO_OFFSET_HALF);
+    /* USER CODE END 17 */
 }
 
 /* USER CODE BEGIN PRIVATE_FUNCTIONS_IMPLEMENTATION */

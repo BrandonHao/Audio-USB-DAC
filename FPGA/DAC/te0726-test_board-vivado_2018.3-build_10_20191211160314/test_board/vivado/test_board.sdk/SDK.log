@@ -1,6 +1,0 @@
-12:51:20 INFO  : Registering command handlers for SDK TCF services
-12:51:22 INFO  : Launching XSCT server: xsct.bat -interactive E:\git_repos\DAC\FPGA\DAC\te0726-test_board-vivado_2018.3-build_10_20191211160314\test_board\vivado\test_board.sdk\temp_xsdb_launch_script.tcl
-12:51:26 INFO  : XSCT server has started successfully.
-12:51:31 INFO  : Successfully done setting XSCT server connection channel  
-12:51:31 INFO  : Successfully done setting SDK workspace  
-12:51:31 INFO  : Processing command line option -hwspec E:/git_repos/DAC/FPGA/DAC/te0726-test_board-vivado_2018.3-build_10_20191211160314/test_board/vivado/test_board.sdk/zsys_wrapper.hdf.

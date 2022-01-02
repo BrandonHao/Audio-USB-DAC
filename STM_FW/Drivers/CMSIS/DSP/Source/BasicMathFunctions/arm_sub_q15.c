@@ -52,75 +52,59 @@
  */
 
 void arm_sub_q15(
-  q15_t * pSrcA,
-  q15_t * pSrcB,
-  q15_t * pDst,
-  uint32_t blockSize)
-{
-  uint32_t blkCnt;                               /* loop counter */
-
-
+    q15_t *pSrcA,
+    q15_t *pSrcB,
+    q15_t *pDst,
+    uint32_t blockSize) {
+    uint32_t blkCnt;                               /* loop counter */
 #if defined (ARM_MATH_DSP)
+    /* Run the below code for Cortex-M4 and Cortex-M3 */
+    q31_t inA1, inA2;
+    q31_t inB1, inB2;
+    /*loop Unrolling */
+    blkCnt = blockSize >> 2U;
 
-/* Run the below code for Cortex-M4 and Cortex-M3 */
-  q31_t inA1, inA2;
-  q31_t inB1, inB2;
+    /* First part of the processing with loop unrolling.  Compute 4 outputs at a time.
+     ** a second loop below computes the remaining 1 to 3 samples. */
+    while(blkCnt > 0U) {
+        /* C = A - B */
+        /* Subtract and then store the results in the destination buffer two samples at a time. */
+        inA1 = *__SIMD32(pSrcA)++;
+        inA2 = *__SIMD32(pSrcA)++;
+        inB1 = *__SIMD32(pSrcB)++;
+        inB2 = *__SIMD32(pSrcB)++;
+        *__SIMD32(pDst)++ = __QSUB16(inA1, inB1);
+        *__SIMD32(pDst)++ = __QSUB16(inA2, inB2);
+        /* Decrement the loop counter */
+        blkCnt--;
+    }
 
-  /*loop Unrolling */
-  blkCnt = blockSize >> 2U;
+    /* If the blockSize is not a multiple of 4, compute any remaining output samples here.
+     ** No loop unrolling is used. */
+    blkCnt = blockSize % 0x4U;
 
-  /* First part of the processing with loop unrolling.  Compute 4 outputs at a time.
-   ** a second loop below computes the remaining 1 to 3 samples. */
-  while (blkCnt > 0U)
-  {
-    /* C = A - B */
-    /* Subtract and then store the results in the destination buffer two samples at a time. */
-    inA1 = *__SIMD32(pSrcA)++;
-    inA2 = *__SIMD32(pSrcA)++;
-    inB1 = *__SIMD32(pSrcB)++;
-    inB2 = *__SIMD32(pSrcB)++;
-
-    *__SIMD32(pDst)++ = __QSUB16(inA1, inB1);
-    *__SIMD32(pDst)++ = __QSUB16(inA2, inB2);
-
-    /* Decrement the loop counter */
-    blkCnt--;
-  }
-
-  /* If the blockSize is not a multiple of 4, compute any remaining output samples here.
-   ** No loop unrolling is used. */
-  blkCnt = blockSize % 0x4U;
-
-  while (blkCnt > 0U)
-  {
-    /* C = A - B */
-    /* Subtract and then store the result in the destination buffer. */
-    *pDst++ = (q15_t) __QSUB16(*pSrcA++, *pSrcB++);
-
-    /* Decrement the loop counter */
-    blkCnt--;
-  }
+    while(blkCnt > 0U) {
+        /* C = A - B */
+        /* Subtract and then store the result in the destination buffer. */
+        *pDst++ = (q15_t) __QSUB16(*pSrcA++, *pSrcB++);
+        /* Decrement the loop counter */
+        blkCnt--;
+    }
 
 #else
+    /* Run the below code for Cortex-M0 */
+    /* Initialize blkCnt with number of samples */
+    blkCnt = blockSize;
 
-  /* Run the below code for Cortex-M0 */
-
-  /* Initialize blkCnt with number of samples */
-  blkCnt = blockSize;
-
-  while (blkCnt > 0U)
-  {
-    /* C = A - B */
-    /* Subtract and then store the result in the destination buffer. */
-    *pDst++ = (q15_t) __SSAT(((q31_t) * pSrcA++ - *pSrcB++), 16);
-
-    /* Decrement the loop counter */
-    blkCnt--;
-  }
+    while(blkCnt > 0U) {
+        /* C = A - B */
+        /* Subtract and then store the result in the destination buffer. */
+        *pDst++ = (q15_t) __SSAT(((q31_t) * pSrcA++ - *pSrcB++), 16);
+        /* Decrement the loop counter */
+        blkCnt--;
+    }
 
 #endif /* #if defined (ARM_MATH_DSP) */
-
-
 }
 
 /**

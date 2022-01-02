@@ -56,65 +56,52 @@
  * The equation used for the conversion process is:
  *
  * <pre>
- * 	pDst[n] = (float32_t) pSrc[n] / 32768;   0 <= n < blockSize.
+ *  pDst[n] = (float32_t) pSrc[n] / 32768;   0 <= n < blockSize.
  * </pre>
  *
  */
 
 
 void arm_q15_to_float(
-  q15_t * pSrc,
-  float32_t * pDst,
-  uint32_t blockSize)
-{
-  q15_t *pIn = pSrc;                             /* Src pointer */
-  uint32_t blkCnt;                               /* loop counter */
-
-
+    q15_t *pSrc,
+    float32_t *pDst,
+    uint32_t blockSize) {
+    q15_t *pIn = pSrc;                             /* Src pointer */
+    uint32_t blkCnt;                               /* loop counter */
 #if defined (ARM_MATH_DSP)
+    /* Run the below code for Cortex-M4 and Cortex-M3 */
+    /*loop Unrolling */
+    blkCnt = blockSize >> 2U;
 
-  /* Run the below code for Cortex-M4 and Cortex-M3 */
+    /* First part of the processing with loop unrolling.  Compute 4 outputs at a time.
+     ** a second loop below computes the remaining 1 to 3 samples. */
+    while(blkCnt > 0U) {
+        /* C = (float32_t) A / 32768 */
+        /* convert from q15 to float and then store the results in the destination buffer */
+        *pDst++ = ((float32_t) * pIn++ / 32768.0f);
+        *pDst++ = ((float32_t) * pIn++ / 32768.0f);
+        *pDst++ = ((float32_t) * pIn++ / 32768.0f);
+        *pDst++ = ((float32_t) * pIn++ / 32768.0f);
+        /* Decrement the loop counter */
+        blkCnt--;
+    }
 
-  /*loop Unrolling */
-  blkCnt = blockSize >> 2U;
-
-  /* First part of the processing with loop unrolling.  Compute 4 outputs at a time.
-   ** a second loop below computes the remaining 1 to 3 samples. */
-  while (blkCnt > 0U)
-  {
-    /* C = (float32_t) A / 32768 */
-    /* convert from q15 to float and then store the results in the destination buffer */
-    *pDst++ = ((float32_t) * pIn++ / 32768.0f);
-    *pDst++ = ((float32_t) * pIn++ / 32768.0f);
-    *pDst++ = ((float32_t) * pIn++ / 32768.0f);
-    *pDst++ = ((float32_t) * pIn++ / 32768.0f);
-
-    /* Decrement the loop counter */
-    blkCnt--;
-  }
-
-  /* If the blockSize is not a multiple of 4, compute any remaining output samples here.
-   ** No loop unrolling is used. */
-  blkCnt = blockSize % 0x4U;
-
+    /* If the blockSize is not a multiple of 4, compute any remaining output samples here.
+     ** No loop unrolling is used. */
+    blkCnt = blockSize % 0x4U;
 #else
-
-  /* Run the below code for Cortex-M0 */
-
-  /* Loop over blockSize number of values */
-  blkCnt = blockSize;
-
+    /* Run the below code for Cortex-M0 */
+    /* Loop over blockSize number of values */
+    blkCnt = blockSize;
 #endif /* #if defined (ARM_MATH_DSP) */
 
-  while (blkCnt > 0U)
-  {
-    /* C = (float32_t) A / 32768 */
-    /* convert from q15 to float and then store the results in the destination buffer */
-    *pDst++ = ((float32_t) * pIn++ / 32768.0f);
-
-    /* Decrement the loop counter */
-    blkCnt--;
-  }
+    while(blkCnt > 0U) {
+        /* C = (float32_t) A / 32768 */
+        /* convert from q15 to float and then store the results in the destination buffer */
+        *pDst++ = ((float32_t) * pIn++ / 32768.0f);
+        /* Decrement the loop counter */
+        blkCnt--;
+    }
 }
 
 /**

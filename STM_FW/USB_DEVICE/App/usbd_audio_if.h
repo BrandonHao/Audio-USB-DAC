@@ -22,7 +22,7 @@
 #define __USBD_AUDIO_IF_H__
 
 #ifdef __cplusplus
- extern "C" {
+extern "C" {
 #endif
 
 /* Includes ------------------------------------------------------------------*/

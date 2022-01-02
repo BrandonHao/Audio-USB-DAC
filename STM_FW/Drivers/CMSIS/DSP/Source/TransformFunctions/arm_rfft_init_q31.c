@@ -4191,7 +4191,7 @@ const q31_t realCoefBQ31[8192] = {
 *
 * \par Description:
 * \par
-* The parameter <code>fftLenReal</code>	Specifies length of RFFT/RIFFT Process. Supported FFT Lengths are 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192.
+* The parameter <code>fftLenReal</code> Specifies length of RFFT/RIFFT Process. Supported FFT Lengths are 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192.
 * \par
 * The parameter <code>ifftFlagR</code> controls whether a forward or inverse transform is computed.
 * Set(=1) ifftFlagR to calculate RIFFT, otherwise RFFT is calculated.
@@ -4203,72 +4203,74 @@ const q31_t realCoefBQ31[8192] = {
 */
 
 arm_status arm_rfft_init_q31(
-    arm_rfft_instance_q31 * S,
+    arm_rfft_instance_q31 *S,
     uint32_t fftLenReal,
     uint32_t ifftFlagR,
-    uint32_t bitReverseFlag)
-{
+    uint32_t bitReverseFlag) {
     /*  Initialise the default arm status */
     arm_status status = ARM_MATH_SUCCESS;
-
     /*  Initialize the Real FFT length */
     S->fftLenReal = (uint16_t) fftLenReal;
-
     /*  Initialize the Twiddle coefficientA pointer */
     S->pTwiddleAReal = (q31_t *) realCoefAQ31;
-
     /*  Initialize the Twiddle coefficientB pointer */
     S->pTwiddleBReal = (q31_t *) realCoefBQ31;
-
     /*  Initialize the Flag for selection of RFFT or RIFFT */
     S->ifftFlagR = (uint8_t) ifftFlagR;
-
     /*  Initialize the Flag for calculation Bit reversal or not */
     S->bitReverseFlagR = (uint8_t) bitReverseFlag;
 
     /*  Initialization of coef modifier depending on the FFT length */
-    switch (S->fftLenReal)
-    {
-    case 8192U:
-        S->twidCoefRModifier = 1U;
-        S->pCfft = &arm_cfft_sR_q31_len4096;
-        break;
-    case 4096U:
-        S->twidCoefRModifier = 2U;
-        S->pCfft = &arm_cfft_sR_q31_len2048;
-        break;
-    case 2048U:
-        S->twidCoefRModifier = 4U;
-        S->pCfft = &arm_cfft_sR_q31_len1024;
-        break;
-    case 1024U:
-        S->twidCoefRModifier = 8U;
-        S->pCfft = &arm_cfft_sR_q31_len512;
-        break;
-    case 512U:
-        S->twidCoefRModifier = 16U;
-        S->pCfft = &arm_cfft_sR_q31_len256;
-        break;
-    case 256U:
-        S->twidCoefRModifier = 32U;
-        S->pCfft = &arm_cfft_sR_q31_len128;
-        break;
-    case 128U:
-        S->twidCoefRModifier = 64U;
-        S->pCfft = &arm_cfft_sR_q31_len64;
-        break;
-    case 64U:
-        S->twidCoefRModifier = 128U;
-        S->pCfft = &arm_cfft_sR_q31_len32;
-        break;
-    case 32U:
-        S->twidCoefRModifier = 256U;
-        S->pCfft = &arm_cfft_sR_q31_len16;
-        break;
-    default:
-        /*  Reporting argument error if rfftSize is not valid value */
-        status = ARM_MATH_ARGUMENT_ERROR;
-        break;
+    switch(S->fftLenReal) {
+        case 8192U:
+            S->twidCoefRModifier = 1U;
+            S->pCfft = &arm_cfft_sR_q31_len4096;
+            break;
+
+        case 4096U:
+            S->twidCoefRModifier = 2U;
+            S->pCfft = &arm_cfft_sR_q31_len2048;
+            break;
+
+        case 2048U:
+            S->twidCoefRModifier = 4U;
+            S->pCfft = &arm_cfft_sR_q31_len1024;
+            break;
+
+        case 1024U:
+            S->twidCoefRModifier = 8U;
+            S->pCfft = &arm_cfft_sR_q31_len512;
+            break;
+
+        case 512U:
+            S->twidCoefRModifier = 16U;
+            S->pCfft = &arm_cfft_sR_q31_len256;
+            break;
+
+        case 256U:
+            S->twidCoefRModifier = 32U;
+            S->pCfft = &arm_cfft_sR_q31_len128;
+            break;
+
+        case 128U:
+            S->twidCoefRModifier = 64U;
+            S->pCfft = &arm_cfft_sR_q31_len64;
+            break;
+
+        case 64U:
+            S->twidCoefRModifier = 128U;
+            S->pCfft = &arm_cfft_sR_q31_len32;
+            break;
+
+        case 32U:
+            S->twidCoefRModifier = 256U;
+            S->pCfft = &arm_cfft_sR_q31_len16;
+            break;
+
+        default:
+            /*  Reporting argument error if rfftSize is not valid value */
+            status = ARM_MATH_ARGUMENT_ERROR;
+            break;
     }
 
     /* return the status of RFFT Init function */

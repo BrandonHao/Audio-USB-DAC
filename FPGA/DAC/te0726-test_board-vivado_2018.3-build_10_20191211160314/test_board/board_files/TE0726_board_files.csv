@@ -1,7 +1,0 @@
-CSV_VERSION=1.4
-#Comment:-do not change matrix position or remove CSV_VERSION:
-ID  ,PRODID             ,PARTNAME           ,BOARDNAME                      ,SHORTNAME      ,ZYNQFLASHTYP   ,FPGAFLASHTYP                           ,PCB_REV      ,DDR_SIZE ,FLASH_SIZE ,EMMC_SIZE ,OTHERS      ,NOTES    ,DESIGN
-1   ,te0726-01          ,xc7z010clg225-1   ,trenz.biz:te0726_01:part0:1.0   ,01_64MB        ,qspi_single    ,s25fl128s-3.3v-qspi-x4-single|SPIx4|16 ,REV01        ,64MB     ,16MB       ,NA        ,NA          ,NA,PCB:1 ,TE0726
-2   ,te0726-03r         ,xc7z010clg225-1   ,trenz.biz:te0726_r:part0:2.1    ,r_128MB        ,qspi_single    ,s25fl128s-3.3v-qspi-x4-single|SPIx4|16 ,REV03|REV02  ,128MB    ,16MB       ,NA        ,NA          ,LPDDR3   ,TE0726
-3   ,te0726-03m         ,xc7z010clg225-1   ,trenz.biz:te0726_m:part0:3.1    ,m_512MB        ,qspi_single    ,s25fl128s-3.3v-qspi-x4-single|SPIx4|16 ,REV03|REV02  ,512MB    ,16MB       ,NA        ,NA          ,LPDDR3   ,TE0726
-4   ,te0726-03-07s-1c   ,xc7z007sclg225-1  ,trenz.biz:te0726_7s:part0:3.1   ,7s_512MB       ,qspi_single    ,s25fl128s-3.3v-qspi-x4-single|SPIx4|16 ,REV03|REV02  ,512MB    ,16MB       ,NA        ,NA          ,LPDDR3   ,TE0726

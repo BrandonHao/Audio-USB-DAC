@@ -6,13 +6,12 @@
   ******************************************************************************
   * @attention
   *
-  * <h2><center>&copy; Copyright (c) 2018 STMicroelectronics.
-  * All rights reserved.</center></h2>
+  * Copyright (c) 2018 STMicroelectronics.
+  * All rights reserved.
   *
-  * This software component is licensed by ST under BSD 3-Clause license,
-  * the "License"; You may not use this file except in compliance with the
-  * License. You may obtain a copy of the License at:
-  *                        opensource.org/licenses/BSD-3-Clause
+  * This software is licensed under terms that can be found in the LICENSE file
+  * in the root directory of this software component.
+  * If no LICENSE file comes with this software, it is provided AS-IS.
   *
   ******************************************************************************
   */
@@ -42,32 +41,29 @@ extern "C" {
 /** @defgroup EXTI_Exported_Types EXTI Exported Types
   * @{
   */
-typedef enum
-{
-  HAL_EXTI_COMMON_CB_ID          = 0x00U
+typedef enum {
+    HAL_EXTI_COMMON_CB_ID          = 0x00U
 } EXTI_CallbackIDTypeDef;
 
 /**
   * @brief  EXTI Handle structure definition
   */
-typedef struct
-{
-  uint32_t Line;                    /*!<  Exti line number */
-  void (* PendingCallback)(void);   /*!<  Exti pending callback */
+typedef struct {
+    uint32_t Line;                    /*!<  Exti line number */
+    void (* PendingCallback)(void);   /*!<  Exti pending callback */
 } EXTI_HandleTypeDef;
 
 /**
   * @brief  EXTI Configuration structure definition
   */
-typedef struct
-{
-  uint32_t Line;      /*!< The Exti line to be configured. This parameter
+typedef struct {
+    uint32_t Line;      /*!< The Exti line to be configured. This parameter
                            can be a value of @ref EXTI_Line */
-  uint32_t Mode;      /*!< The Exit Mode to be configured for a core.
+    uint32_t Mode;      /*!< The Exit Mode to be configured for a core.
                            This parameter can be a combination of @ref EXTI_Mode */
-  uint32_t Trigger;   /*!< The Exti Trigger to be configured. This parameter
+    uint32_t Trigger;   /*!< The Exti Trigger to be configured. This parameter
                            can be a value of @ref EXTI_Trigger */
-  uint32_t GPIOSel;   /*!< The Exti GPIO multiplexer selection to be configured.
+    uint32_t GPIOSel;   /*!< The Exti GPIO multiplexer selection to be configured.
                            This parameter is only possible for line 0 to 15. It
                            can be a value of @ref EXTI_GPIOSel */
 } EXTI_ConfigTypeDef;
@@ -219,44 +215,44 @@ typedef struct
   * @{
   */
 #define IS_EXTI_LINE(__EXTI_LINE__)          ((((__EXTI_LINE__) & ~(EXTI_PROPERTY_MASK | EXTI_PIN_MASK)) == 0x00u) && \
-                                             ((((__EXTI_LINE__) & EXTI_PROPERTY_MASK) == EXTI_CONFIG)   || \
-                                              (((__EXTI_LINE__) & EXTI_PROPERTY_MASK) == EXTI_GPIO))    && \
-                                              (((__EXTI_LINE__) & EXTI_PIN_MASK) < EXTI_LINE_NB))
+        ((((__EXTI_LINE__) & EXTI_PROPERTY_MASK) == EXTI_CONFIG)   || \
+         (((__EXTI_LINE__) & EXTI_PROPERTY_MASK) == EXTI_GPIO))    && \
+        (((__EXTI_LINE__) & EXTI_PIN_MASK) < EXTI_LINE_NB))
 
 #define IS_EXTI_MODE(__EXTI_LINE__)          ((((__EXTI_LINE__) & EXTI_MODE_MASK) != 0x00u) && \
-                                              (((__EXTI_LINE__) & ~EXTI_MODE_MASK) == 0x00u))
+        (((__EXTI_LINE__) & ~EXTI_MODE_MASK) == 0x00u))
 
 #define IS_EXTI_TRIGGER(__EXTI_LINE__)       (((__EXTI_LINE__)  & ~EXTI_TRIGGER_MASK) == 0x00u)
 
 #define IS_EXTI_PENDING_EDGE(__EXTI_LINE__)  (((__EXTI_LINE__) == EXTI_TRIGGER_FALLING) || \
-                                              ((__EXTI_LINE__) == EXTI_TRIGGER_RISING)  || \
-                                              ((__EXTI_LINE__) == EXTI_TRIGGER_RISING_FALLING))
+        ((__EXTI_LINE__) == EXTI_TRIGGER_RISING)  || \
+        ((__EXTI_LINE__) == EXTI_TRIGGER_RISING_FALLING))
 
 #define IS_EXTI_CONFIG_LINE(__EXTI_LINE__)   (((__EXTI_LINE__) & EXTI_CONFIG) != 0x00u)
 
 #if defined (GPIOK)
 #define IS_EXTI_GPIO_PORT(__PORT__)     (((__PORT__) == EXTI_GPIOA) || \
-                                         ((__PORT__) == EXTI_GPIOB) || \
-                                         ((__PORT__) == EXTI_GPIOC) || \
-                                         ((__PORT__) == EXTI_GPIOD) || \
-                                         ((__PORT__) == EXTI_GPIOE) || \
-                                         ((__PORT__) == EXTI_GPIOF) || \
-                                         ((__PORT__) == EXTI_GPIOG) || \
-                                         ((__PORT__) == EXTI_GPIOH) || \
-                                         ((__PORT__) == EXTI_GPIOI) || \
-                                         ((__PORT__) == EXTI_GPIOJ) || \
-                                         ((__PORT__) == EXTI_GPIOK))
+        ((__PORT__) == EXTI_GPIOB) || \
+        ((__PORT__) == EXTI_GPIOC) || \
+        ((__PORT__) == EXTI_GPIOD) || \
+        ((__PORT__) == EXTI_GPIOE) || \
+        ((__PORT__) == EXTI_GPIOF) || \
+        ((__PORT__) == EXTI_GPIOG) || \
+        ((__PORT__) == EXTI_GPIOH) || \
+        ((__PORT__) == EXTI_GPIOI) || \
+        ((__PORT__) == EXTI_GPIOJ) || \
+        ((__PORT__) == EXTI_GPIOK))
 #else
 #define IS_EXTI_GPIO_PORT(__PORT__)     (((__PORT__) == EXTI_GPIOA) || \
-                                         ((__PORT__) == EXTI_GPIOB) || \
-                                         ((__PORT__) == EXTI_GPIOC) || \
-                                         ((__PORT__) == EXTI_GPIOD) || \
-                                         ((__PORT__) == EXTI_GPIOE) || \
-                                         ((__PORT__) == EXTI_GPIOF) || \
-                                         ((__PORT__) == EXTI_GPIOG) || \
-                                         ((__PORT__) == EXTI_GPIOH) || \
-                                         ((__PORT__) == EXTI_GPIOI) || \
-                                         ((__PORT__) == EXTI_GPIOJ))
+        ((__PORT__) == EXTI_GPIOB) || \
+        ((__PORT__) == EXTI_GPIOC) || \
+        ((__PORT__) == EXTI_GPIOD) || \
+        ((__PORT__) == EXTI_GPIOE) || \
+        ((__PORT__) == EXTI_GPIOF) || \
+        ((__PORT__) == EXTI_GPIOG) || \
+        ((__PORT__) == EXTI_GPIOH) || \
+        ((__PORT__) == EXTI_GPIOI) || \
+        ((__PORT__) == EXTI_GPIOJ))
 #endif /* GPIOK */
 
 #define IS_EXTI_GPIO_PIN(__PIN__)       ((__PIN__) < 16U)
@@ -275,11 +271,15 @@ typedef struct
   * @{
   */
 /* Configuration functions ****************************************************/
-HAL_StatusTypeDef HAL_EXTI_SetConfigLine(EXTI_HandleTypeDef *hexti, EXTI_ConfigTypeDef *pExtiConfig);
-HAL_StatusTypeDef HAL_EXTI_GetConfigLine(EXTI_HandleTypeDef *hexti, EXTI_ConfigTypeDef *pExtiConfig);
+HAL_StatusTypeDef HAL_EXTI_SetConfigLine(EXTI_HandleTypeDef *hexti,
+        EXTI_ConfigTypeDef *pExtiConfig);
+HAL_StatusTypeDef HAL_EXTI_GetConfigLine(EXTI_HandleTypeDef *hexti,
+        EXTI_ConfigTypeDef *pExtiConfig);
 HAL_StatusTypeDef HAL_EXTI_ClearConfigLine(EXTI_HandleTypeDef *hexti);
-HAL_StatusTypeDef HAL_EXTI_RegisterCallback(EXTI_HandleTypeDef *hexti, EXTI_CallbackIDTypeDef CallbackID, void (*pPendingCbfn)(void));
-HAL_StatusTypeDef HAL_EXTI_GetHandle(EXTI_HandleTypeDef *hexti, uint32_t ExtiLine);
+HAL_StatusTypeDef HAL_EXTI_RegisterCallback(EXTI_HandleTypeDef *hexti,
+        EXTI_CallbackIDTypeDef CallbackID, void (*pPendingCbfn)(void));
+HAL_StatusTypeDef HAL_EXTI_GetHandle(EXTI_HandleTypeDef *hexti,
+                                     uint32_t ExtiLine);
 /**
   * @}
   */
@@ -316,4 +316,3 @@ void HAL_EXTI_GenerateSWI(EXTI_HandleTypeDef *hexti);
 
 #endif /* STM32F7xx_HAL_EXTI_H */
 
-/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

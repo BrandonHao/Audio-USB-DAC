@@ -2,28 +2,27 @@
   ******************************************************************************
   * @file    stm32f7xx_hal.h
   * @author  MCD Application Team
-  * @brief   This file contains all the functions prototypes for the HAL 
+  * @brief   This file contains all the functions prototypes for the HAL
   *          module driver.
   ******************************************************************************
   * @attention
   *
-  * <h2><center>&copy; Copyright (c) 2017 STMicroelectronics.
-  * All rights reserved.</center></h2>
+  * Copyright (c) 2017 STMicroelectronics.
+  * All rights reserved.
   *
-  * This software component is licensed by ST under BSD 3-Clause license,
-  * the "License"; You may not use this file except in compliance with the
-  * License. You may obtain a copy of the License at:
-  *                        opensource.org/licenses/BSD-3-Clause
+  * This software is licensed under terms that can be found in the LICENSE file
+  * in the root directory of this software component.
+  * If no LICENSE file comes with this software, it is provided AS-IS.
   *
   ******************************************************************************
-  */ 
+  */
 
 /* Define to prevent recursive inclusion -------------------------------------*/
 #ifndef __STM32F7xx_HAL_H
 #define __STM32F7xx_HAL_H
 
 #ifdef __cplusplus
- extern "C" {
+extern "C" {
 #endif
 
 /* Includes ------------------------------------------------------------------*/
@@ -35,7 +34,7 @@
 
 /** @addtogroup HAL
   * @{
-  */ 
+  */
 
 /* Exported types ------------------------------------------------------------*/
 /* Exported constants --------------------------------------------------------*/
@@ -47,12 +46,11 @@
 /** @defgroup HAL_TICK_FREQ Tick Frequency
   * @{
   */
-typedef enum
-{
-  HAL_TICK_FREQ_10HZ         = 100U,
-  HAL_TICK_FREQ_100HZ        = 10U,
-  HAL_TICK_FREQ_1KHZ         = 1U,
-  HAL_TICK_FREQ_DEFAULT      = HAL_TICK_FREQ_1KHZ
+typedef enum {
+    HAL_TICK_FREQ_10HZ         = 100U,
+    HAL_TICK_FREQ_100HZ        = 10U,
+    HAL_TICK_FREQ_1KHZ         = 1U,
+    HAL_TICK_FREQ_DEFAULT      = HAL_TICK_FREQ_1KHZ
 } HAL_TickFreqTypeDef;
 /**
   * @}
@@ -70,13 +68,13 @@ typedef enum
 /**
   * @}
   */
-   
+
 /* Exported macro ------------------------------------------------------------*/
 /** @defgroup HAL_Exported_Macros HAL Exported Macros
   * @{
   */
-  
-/** @brief  Freeze/Unfreeze Peripherals in Debug mode 
+
+/** @brief  Freeze/Unfreeze Peripherals in Debug mode
   */
 #define __HAL_DBGMCU_FREEZE_TIM2()           (DBGMCU->APB1FZ |= (DBGMCU_APB1_FZ_DBG_TIM2_STOP))
 #define __HAL_DBGMCU_FREEZE_TIM3()           (DBGMCU->APB1FZ |= (DBGMCU_APB1_FZ_DBG_TIM3_STOP))
@@ -132,13 +130,13 @@ typedef enum
 /** @brief  FMC (NOR/RAM) mapped at 0x60000000 and SDRAM mapped at 0xC0000000
   */
 #define __HAL_SYSCFG_REMAPMEMORY_FMC()          (SYSCFG->MEMRMP &= ~(SYSCFG_MEMRMP_SWP_FMC))
-                                       
+
 
 /** @brief  FMC/SDRAM  mapped at 0x60000000 (NOR/RAM) mapped at 0xC0000000
   */
 #define __HAL_SYSCFG_REMAPMEMORY_FMC_SDRAM() do {SYSCFG->MEMRMP &= ~(SYSCFG_MEMRMP_SWP_FMC);\
-                                          SYSCFG->MEMRMP |= (SYSCFG_MEMRMP_SWP_FMC_0);\
-                                         }while(0);
+        SYSCFG->MEMRMP |= (SYSCFG_MEMRMP_SWP_FMC_0);\
+    }while(0);
 /**
   * @brief  Return the memory boot mapping as configured by user.
   * @retval The boot mode as configured by user. The returned value can be one
@@ -165,7 +163,7 @@ typedef enum
 /**
   * @}
   */
-  
+
 /** @defgroup HAL_Private_Macros HAL Private Macros
   * @{
   */
@@ -191,8 +189,8 @@ HAL_StatusTypeDef HAL_InitTick(uint32_t TickPriority);
 /**
   * @}
   */
- 
- /* Exported variables ---------------------------------------------------------*/
+
+/* Exported variables ---------------------------------------------------------*/
 /** @addtogroup HAL_Exported_Variables
   * @{
   */
@@ -202,10 +200,10 @@ extern HAL_TickFreqTypeDef uwTickFreq;
 /**
   * @}
   */
- 
+
 /** @addtogroup HAL_Exported_Functions_Group2
   * @{
-  */ 
+  */
 /* Peripheral Control functions  ************************************************/
 void HAL_IncTick(void);
 void HAL_Delay(uint32_t Delay);
@@ -241,7 +239,7 @@ void HAL_DisableMemorySwappingBank(void);
 
 /**
   * @}
-  */  
+  */
 /* Private types -------------------------------------------------------------*/
 /* Private variables ---------------------------------------------------------*/
 /** @defgroup HAL_Private_Variables HAL Private Variables
@@ -261,16 +259,16 @@ void HAL_DisableMemorySwappingBank(void);
 /* Private functions ---------------------------------------------------------*/
 /**
   * @}
-  */ 
+  */
 
 /**
   * @}
-  */ 
-  
+  */
+
 #ifdef __cplusplus
 }
 #endif
 
 #endif /* __STM32F7xx_HAL_H */
 
-/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
+

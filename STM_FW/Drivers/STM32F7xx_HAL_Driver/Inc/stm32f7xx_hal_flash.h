@@ -6,14 +6,12 @@
   ******************************************************************************
   * @attention
   *
-  * <h2><center>&copy; Copyright (c) 2017 STMicroelectronics.
-  * All rights reserved.</center></h2>
+  * Copyright (c) 2017 STMicroelectronics.
+  * All rights reserved.
   *
-  * This software component is licensed by ST under BSD 3-Clause license,
-  * the "License"; You may not use this file except in compliance with the
-  * License. You may obtain a copy of the License at:
-  *                        opensource.org/licenses/BSD-3-Clause
-  *
+  * This software is licensed under terms that can be found in the LICENSE file in
+  * the root directory of this software component.
+  * If no LICENSE file comes with this software, it is provided AS-IS.
   ******************************************************************************
   */
 
@@ -22,7 +20,7 @@
 #define __STM32F7xx_HAL_FLASH_H
 
 #ifdef __cplusplus
- extern "C" {
+extern "C" {
 #endif
 
 /* Includes ------------------------------------------------------------------*/
@@ -44,35 +42,40 @@
 /**
   * @brief  FLASH Procedure structure definition
   */
-typedef enum
-{
-  FLASH_PROC_NONE = 0U,
-  FLASH_PROC_SECTERASE,
-  FLASH_PROC_MASSERASE,
-  FLASH_PROC_PROGRAM
+typedef enum {
+    FLASH_PROC_NONE = 0U,
+    FLASH_PROC_SECTERASE,
+    FLASH_PROC_MASSERASE,
+    FLASH_PROC_PROGRAM
 } FLASH_ProcedureTypeDef;
 
 
 /**
   * @brief  FLASH handle Structure definition
   */
-typedef struct
-{
-  __IO FLASH_ProcedureTypeDef ProcedureOnGoing;   /* Internal variable to indicate which procedure is ongoing or not in IT context */
+typedef struct {
+    __IO FLASH_ProcedureTypeDef
+    ProcedureOnGoing;   /* Internal variable to indicate which procedure is ongoing or not in IT context */
 
-  __IO uint32_t               NbSectorsToErase;   /* Internal variable to save the remaining sectors to erase in IT context        */
+    __IO uint32_t
+    NbSectorsToErase;   /* Internal variable to save the remaining sectors to erase in IT context        */
 
-  __IO uint8_t                VoltageForErase;    /* Internal variable to provide voltage range selected by user in IT context     */
+    __IO uint8_t
+    VoltageForErase;    /* Internal variable to provide voltage range selected by user in IT context     */
 
-  __IO uint32_t               Sector;             /* Internal variable to define the current sector which is erasing               */
+    __IO uint32_t
+    Sector;             /* Internal variable to define the current sector which is erasing               */
 
-  __IO uint32_t               Address;            /* Internal variable to save address selected for program                        */
+    __IO uint32_t
+    Address;            /* Internal variable to save address selected for program                        */
 
-  HAL_LockTypeDef             Lock;               /* FLASH locking object                                                          */
+    HAL_LockTypeDef
+    Lock;               /* FLASH locking object                                                          */
 
-  __IO uint32_t               ErrorCode;          /* FLASH error code                                                              */
+    __IO uint32_t
+    ErrorCode;          /* FLASH error code                                                              */
 
-}FLASH_ProcessTypeDef;
+} FLASH_ProcessTypeDef;
 
 /**
   * @}
@@ -206,7 +209,7 @@ typedef struct
   * @retval none
   */
 #define __HAL_FLASH_SET_LATENCY(__LATENCY__) \
-                  MODIFY_REG(FLASH->ACR, FLASH_ACR_LATENCY, (uint32_t)(__LATENCY__))
+    MODIFY_REG(FLASH->ACR, FLASH_ACR_LATENCY, (uint32_t)(__LATENCY__))
 
 /**
   * @brief  Get the FLASH Latency.
@@ -311,8 +314,10 @@ typedef struct
   * @{
   */
 /* Program operation functions  ***********************************************/
-HAL_StatusTypeDef HAL_FLASH_Program(uint32_t TypeProgram, uint32_t Address, uint64_t Data);
-HAL_StatusTypeDef HAL_FLASH_Program_IT(uint32_t TypeProgram, uint32_t Address, uint64_t Data);
+HAL_StatusTypeDef HAL_FLASH_Program(uint32_t TypeProgram, uint32_t Address,
+                                    uint64_t Data);
+HAL_StatusTypeDef HAL_FLASH_Program_IT(uint32_t TypeProgram, uint32_t Address,
+                                       uint64_t Data);
 /* FLASH IRQ handler method */
 void HAL_FLASH_IRQHandler(void);
 /* Callbacks in non blocking modes */
@@ -415,4 +420,3 @@ HAL_StatusTypeDef FLASH_WaitForLastOperation(uint32_t Timeout);
 
 #endif /* __STM32F7xx_HAL_FLASH_H */
 
-/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

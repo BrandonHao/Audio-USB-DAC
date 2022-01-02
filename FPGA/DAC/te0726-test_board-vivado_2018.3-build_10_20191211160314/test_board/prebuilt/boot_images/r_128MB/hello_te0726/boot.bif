@@ -1,6 +1,0 @@
-the_ROM_image:
-{
-    [bootloader]../../../software/r_128MB/zynq_fsbl.elf
-    ../../../hardware/r_128MB/test_board.bit
-    ../../../software/r_128MB/hello_te0726.elf
-}

@@ -1,10 +1,11 @@
-CMakeFiles/
-bin/
 .settings/
 .vscode/
 
-*.bin
-*.hex
-*.elf
-CMakeCache.txt
-.settings/
+#Build Artifacts
+**/build
+**.o
+**.bin
+**.elf
+**.out
+**/Debug
+**/Release

@@ -62,91 +62,68 @@
 
 
 void arm_offset_f32(
-  float32_t * pSrc,
-  float32_t offset,
-  float32_t * pDst,
-  uint32_t blockSize)
-{
-  uint32_t blkCnt;                               /* loop counter */
-
+    float32_t *pSrc,
+    float32_t offset,
+    float32_t *pDst,
+    uint32_t blockSize) {
+    uint32_t blkCnt;                               /* loop counter */
 #if defined (ARM_MATH_DSP)
+    /* Run the below code for Cortex-M4 and Cortex-M3 */
+    float32_t in1, in2, in3, in4;
+    /*loop Unrolling */
+    blkCnt = blockSize >> 2U;
 
-/* Run the below code for Cortex-M4 and Cortex-M3 */
-  float32_t in1, in2, in3, in4;
+    /* First part of the processing with loop unrolling.  Compute 4 outputs at a time.
+     ** a second loop below computes the remaining 1 to 3 samples. */
+    while(blkCnt > 0U) {
+        /* C = A + offset */
+        /* Add offset and then store the results in the destination buffer. */
+        /* read samples from source */
+        in1 = *pSrc;
+        in2 = *(pSrc + 1);
+        /* add offset to input */
+        in1 = in1 + offset;
+        /* read samples from source */
+        in3 = *(pSrc + 2);
+        /* add offset to input */
+        in2 = in2 + offset;
+        /* read samples from source */
+        in4 = *(pSrc + 3);
+        /* add offset to input */
+        in3 = in3 + offset;
+        /* store result to destination */
+        *pDst = in1;
+        /* add offset to input */
+        in4 = in4 + offset;
+        /* store result to destination */
+        *(pDst + 1) = in2;
+        /* store result to destination */
+        *(pDst + 2) = in3;
+        /* store result to destination */
+        *(pDst + 3) = in4;
+        /* update pointers to process next samples */
+        pSrc += 4U;
+        pDst += 4U;
+        /* Decrement the loop counter */
+        blkCnt--;
+    }
 
-  /*loop Unrolling */
-  blkCnt = blockSize >> 2U;
-
-  /* First part of the processing with loop unrolling.  Compute 4 outputs at a time.
-   ** a second loop below computes the remaining 1 to 3 samples. */
-  while (blkCnt > 0U)
-  {
-    /* C = A + offset */
-    /* Add offset and then store the results in the destination buffer. */
-    /* read samples from source */
-    in1 = *pSrc;
-    in2 = *(pSrc + 1);
-
-    /* add offset to input */
-    in1 = in1 + offset;
-
-    /* read samples from source */
-    in3 = *(pSrc + 2);
-
-    /* add offset to input */
-    in2 = in2 + offset;
-
-    /* read samples from source */
-    in4 = *(pSrc + 3);
-
-    /* add offset to input */
-    in3 = in3 + offset;
-
-    /* store result to destination */
-    *pDst = in1;
-
-    /* add offset to input */
-    in4 = in4 + offset;
-
-    /* store result to destination */
-    *(pDst + 1) = in2;
-
-    /* store result to destination */
-    *(pDst + 2) = in3;
-
-    /* store result to destination */
-    *(pDst + 3) = in4;
-
-    /* update pointers to process next samples */
-    pSrc += 4U;
-    pDst += 4U;
-
-    /* Decrement the loop counter */
-    blkCnt--;
-  }
-
-  /* If the blockSize is not a multiple of 4, compute any remaining output samples here.
-   ** No loop unrolling is used. */
-  blkCnt = blockSize % 0x4U;
-
+    /* If the blockSize is not a multiple of 4, compute any remaining output samples here.
+     ** No loop unrolling is used. */
+    blkCnt = blockSize % 0x4U;
 #else
-
-  /* Run the below code for Cortex-M0 */
-
-  /* Initialize blkCnt with number of samples */
-  blkCnt = blockSize;
-
+    /* Run the below code for Cortex-M0 */
+    /* Initialize blkCnt with number of samples */
+    blkCnt = blockSize;
 #endif /* #if defined (ARM_MATH_DSP) */
 
-  while (blkCnt > 0U)
-  {
-    /* C = A + offset */
-    /* Add offset and then store the result in the destination buffer. */
-    *pDst++ = (*pSrc++) + offset;
-
-    /* Decrement the loop counter */
-    blkCnt--;
-  }
+    while(blkCnt > 0U) {
+        /* C = A + offset */
+        /* Add offset and then store the result in the destination buffer. */
+        *pDst++ = (*pSrc++) + offset;
+        /* Decrement the loop counter */
+        blkCnt--;
+    }
 }
 
 /**
